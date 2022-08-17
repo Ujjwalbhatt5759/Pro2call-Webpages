@@ -1,10 +1,7 @@
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import Home from './pages/index'; 
-import Login from './pages/login'; 
-import Password from './pages/password'; 
-import Addnew from './pages/serviceprovider-addnew'; 
-import Editservice from "./pages/serviceprovider-editservice";
-import Listed from "./pages/serviceprovider-listed";
+import Home from './pages/sprint_1/index'; 
+import Login from './pages/sprint_1/login'; 
+import Password from './pages/sprint_1/password'; 
 
 function App() {
   return (
@@ -13,9 +10,7 @@ function App() {
         <Route path='/' exact element={<Home/>} />  
         <Route path='/login' exact element={<Login/>} /> 
         <Route path='/password' exact element={<Password/>} /> 
-        <Route path='/Addnew' exact element={<Addnew/>} /> 
-        <Route path='/Editservice' exact element={<Editservice/>} />
-        <Route path='/Listed' exact element={<Listed/>} />
+       
       </Routes>
     </Router>
   );
