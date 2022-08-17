@@ -290,8 +290,8 @@ background-size: 40%; min-height: 100vh;}
 .profile-content ul li{color: #242424; font-size: 13px; font-weight: 500; margin-bottom: 15px;}
 
 .upload-btn-wrapper {position: relative; overflow: hidden; display: block; text-align: right; top: -53px; right: 18px;}
-.uploadBtn {background: #242424; box-shadow: 0px 12px 34px #24242433; border-radius: 8px; color: #FFFFFF;
-    padding: 7px 30px; font-size: 13px; font-weight: 700; border: none;}
+.uploadBtn {background: #242424;  box-shadow: 0px 12px 34px #24242433; border-radius: 8px; color: #FFFFFF;
+    padding: 8px 30px; font-size: 13px; font-weight: 600; border: none;}
 .upload-btn-wrapper input[type=file] {font-size: 100px; position: absolute; left: -124px; top: 0; opacity: 0; cursor: pointer; height: 500px;
 font-size: 20px; width: 900px;}
 .profile-inpt{padding-left: 18px;}
@@ -432,23 +432,31 @@ font-size: 20px; width: 900px;}
 .selected-far{margin-top: -20px;}
 .card-body {padding: 0rem 1.25rem 1.25rem 1.25rem;}
 
-.Listed-nav{margin-top: 68px;}
-.navbar-nav .nav-link {
-   display: flex;
-   color: #51459e80;
-   font-size: 13px;
-   font-weight: 600;
-   padding: 0.7rem 0rem !important;
-   margin-right: 70px;
-}
+.navbar {margin-top: 68px;}
+.navbar-nav .nav-link {display: flex; color: #51459e80; font-size: 13px; font-weight: 600; padding: 0.7rem 0rem !important;
+   margin-right: 70px;}
+.navbar-nav .nav-link .active{color: #51459E;}
 .navbar-nav .nav-link:last-child{margin-right: 0px;}
-
 .navbar-nav .nav-link img{height: 18px; margin-right: 5px;}
 .navbar-nav{border-bottom: 1px solid #dee2e6;}
 
 .mayment-btn{border: 2px solid #242424; color: #242424; border-radius: 8px; position: relative; font-size: 13px; font-weight: 600; padding: 8px 30px;}
 .btn-notification{left: 125px; top: -7px;}
 .btn-notification2{left: 170px; top: -7px;}
+
+.accordreact .accordion-item{box-shadow: 0px 12px 34px #20345914;  margin-bottom: 15px;  background: #FFFFFF; border-radius: 10px;
+padding: 10px 15px 10px 15px;}
+.accordreact .accordion-header .accordion-button{width: 100%; border: none; background: none; text-align: left; color: #242424;
+font-size: 14px; font-weight: 500;}
+.accordreact .accordion-header .accordion-button .added-accordtext{float: right;}
+
+.service-list{background: #FFFFFF;
+    box-shadow: 0px 12px 34px #20345914;
+    border-radius: 10px;}
+.service-item p{margin-bottom: 0px;}
+
+
+
 
 
 
