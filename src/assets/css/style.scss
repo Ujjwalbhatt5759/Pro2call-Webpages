@@ -448,7 +448,8 @@ font-size: 20px; width: 900px;}
 padding: 10px 15px 10px 15px;}
 .accordreact .accordion-header .accordion-button{width: 100%; border: none; background: none; text-align: left; color: #242424;
 font-size: 14px; font-weight: 500;}
-.accordreact .accordion-header .accordion-button .added-accordtext{float: right;}
+.accordreact .accordion-header .accordion-button .added-accordtext{float: right; color: #5A9E45; font-weight: 500; font-size: 14px;}
+.accordreact .accordion-header .accordion-button .added-blackText{float: right; color: #242424; font-weight: 500; font-size: 14px;}
 
 .service-list{background: #FFFFFF;
     box-shadow: 0px 12px 34px #20345914;
