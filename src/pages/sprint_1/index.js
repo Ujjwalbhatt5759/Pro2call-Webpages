@@ -1,5 +1,39 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import Slider from "react-slick";
+
+
+var servicesettings = {
+    dots: true,
+    arrows: false, 
+    infinite: false,
+    speed: 2000,
+    slidesToShow: 6,
+    slidesToScroll: 3,
+    autoplay: true, 
+    pauseOnHover: false,
+    padding: '60px', 
+    responsive: [ 
+      {
+        breakpoint: 600,
+        settings: { 
+          slidesToShow: 2
+        }
+      }
+    ]
+  };
+
+  var clientsettings = {
+    dots: true,
+    arrows: false, 
+    infinite: false,
+    speed: 2000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true, 
+    pauseOnHover: false, 
+  };
+  
 
 function Home() {
 
@@ -134,49 +168,118 @@ function Home() {
                         </div>
                     </div>
                     <div class="row mt-3 mt-sm-5">
-                        <div class="col-md-2">
-                            <div class="service-box">
-                                <p> <span>+45%</span> since last week</p>
-                                <img src="images/Home-ac.svg" class="mt-2" alt="" />
-                                <h2>AC Repair</h2>
-                            </div>
+                        <div class="col-md-12">
+                            <Slider className="servslider" {...servicesettings}>
+                                <div>
+                                    <div class="service-box">
+                                        <Link to="/">
+                                            <p> <span>+45%</span> since last week</p>
+                                            <img src="images/Home-ac.svg" class="mt-2" alt="" />
+                                            <h2>AC Repair</h2>
+                                        </Link>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="service-box">
+                                        <Link to="/">
+                                            <p> <span>+45%</span> since last week</p>
+                                            <img src="images/Home-paint.svg" class="mt-2" alt="" />
+                                            <h2>Home Painting</h2>
+                                        </Link>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="service-box">
+                                        <Link to="/">
+                                            <p> <span>+45%</span> since last week</p>
+                                            <img src="images/awesome-home.svg" class="mt-2" alt="" />
+                                            <h2>Cleaning Services</h2>
+                                        </Link>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="service-box">
+                                        <Link to="/">
+                                            <p> <span>+45%</span> since last week</p>
+                                            <img src="images/spray-can.svg" class="mt-2" alt="" />
+                                            <h2>Disinfections</h2>
+                                        </Link>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="service-box">
+                                        <Link to="/">
+                                            <p> <span>+45%</span> since last week</p>
+                                            <img src="images/material-tv.svg" class="mt-2" alt="" />
+                                            <h2>Appliances Repair</h2>
+                                        </Link>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="service-box">
+                                        <Link to="/">
+                                            <p> <span>+45%</span> since last week</p>
+                                            <img src="images/hammer.svg" class="mt-2" alt="" />
+                                            <h2>Carpentry</h2>
+                                        </Link>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="service-box">
+                                        <Link to="/">
+                                            <p> <span>+45%</span> since last week</p>
+                                            <img src="images/Home-ac.svg" class="mt-2" alt="" />
+                                            <h2>AC Repair</h2>
+                                        </Link>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="service-box">
+                                        <Link to="/">
+                                            <p> <span>+45%</span> since last week</p>
+                                            <img src="images/Home-paint.svg" class="mt-2" alt="" />
+                                            <h2>Home Painting</h2>
+                                        </Link>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="service-box">
+                                        <Link to="/">
+                                            <p> <span>+45%</span> since last week</p>
+                                            <img src="images/awesome-home.svg" class="mt-2" alt="" />
+                                            <h2>Cleaning Services</h2>
+                                        </Link>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="service-box">
+                                        <Link to="/">
+                                            <p> <span>+45%</span> since last week</p>
+                                            <img src="images/spray-can.svg" class="mt-2" alt="" />
+                                            <h2>Disinfections</h2>
+                                        </Link>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="service-box">
+                                        <Link to="/">
+                                            <p> <span>+45%</span> since last week</p>
+                                            <img src="images/material-tv.svg" class="mt-2" alt="" />
+                                            <h2>Appliances Repair</h2>
+                                        </Link>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="service-box">
+                                        <Link to="/">
+                                            <p> <span>+45%</span> since last week</p>
+                                            <img src="images/hammer.svg" class="mt-2" alt="" />
+                                            <h2>Carpentry</h2>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </Slider>
                         </div>
-                        <div class="col-md-2">
-                            <div class="service-box">
-                                <p> <span>+45%</span> since last week</p>
-                                <img src="images/Home-paint.svg" class="mt-2" alt="" />
-                                <h2>Home Painting</h2>
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <div class="service-box">
-                                <p> <span>+45%</span> since last week</p>
-                                <img src="images/awesome-home.svg" class="mt-2" alt="" />
-                                <h2>Cleaning Services</h2>
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <div class="service-box">
-                                <p> <span>+45%</span> since last week</p>
-                                <img src="images/spray-can.svg" class="mt-2" alt="" />
-                                <h2>Disinfections</h2>
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <div class="service-box">
-                                <p> <span>+45%</span> since last week</p>
-                                <img src="images/material-tv.svg" class="mt-2" alt="" />
-                                <h2>Appliances Repair</h2>
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <div class="service-box">
-                                <p> <span>+45%</span> since last week</p>
-                                <img src="images/hammer.svg" class="mt-2" alt="" />
-                                <h2>Carpentry</h2>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </section>
@@ -353,30 +456,60 @@ function Home() {
                     <div class="row justify-content-center">
                         <div class="col-md-10">
                             <div class="trusted-manSec">
-                                <div class="row justify-content-center">
-                                    <div class="col-md-10">
-                                        <div class="row">
-                                            <div class="col-md-6">
+                                <Slider className="clientslider" {...clientsettings}>
+                                    <div>
+                                        <div class="row justify-content-center">
+                                            <div class="col-md-10">
                                                 <div class="row">
-                                                    <div class="col-md-3">
-                                                        <img src="images/comma.svg" class="comma-img mb-2" alt="" />
+                                                    <div class="col-md-6">
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <img src="images/comma.svg" class="comma-img mb-2" alt="" />
+                                                            </div>
+                                                        </div>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                            nisi ut aliquip ex ea commodo consequat.</p>
+                                                        <h2>Alan Keech</h2>
+                                                        <p>Senior project manager for Example company</p>
+                                                        <h5><a href="#">Read more</a></h5>
                                                     </div>
-                                                </div>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                                    nisi ut aliquip ex ea commodo consequat.</p>
-                                                <h2>Alan Keech</h2>
-                                                <p>Senior project manager for Example company</p>
-                                                <h5><a href="#">Read more</a></h5>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="young-manSec">
-                                                    <img src="images/Young-Man2.png" class="young-manimg" alt="" />
+                                                    <div class="col-md-6">
+                                                        <div class="young-manSec">
+                                                            <img src="images/Young-Man2.png" class="young-manimg" alt="" />
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                    <div>
+                                        <div class="row justify-content-center">
+                                            <div class="col-md-10">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <img src="images/comma.svg" class="comma-img mb-2" alt="" />
+                                                            </div>
+                                                        </div>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                            nisi ut aliquip ex ea commodo consequat.</p>
+                                                        <h2>Alan Keech</h2>
+                                                        <p>Senior project manager for Example company</p>
+                                                        <h5><a href="#">Read more</a></h5>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="young-manSec">
+                                                            <img src="images/Young-Man2.png" class="young-manimg" alt="" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Slider>
                             </div>
                         </div>
                     </div>
