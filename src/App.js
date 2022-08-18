@@ -27,6 +27,7 @@ import ServiceproviderTeamMemberform4 from "./pages/sprint_1/serviceprovider-tea
 import ServiceproviderSignupformFull from "./pages/sprint_1/serviceprovider-signupformFull";
 import ServiceproviderCompanyfull from "./pages/sprint_1/serviceprovider-companyFull";
 
+
 function App() {
   return (
     <Router>
@@ -58,6 +59,9 @@ function App() {
         <Route path='/ServiceproviderTeamMemberform4' exact element={<ServiceproviderTeamMemberform4/>} />
         <Route path='/ServiceproviderSignupformFull' exact element={<ServiceproviderSignupformFull/>} />
         <Route path='/ServiceproviderCompanyfull' exact element={<ServiceproviderCompanyfull/>} />
+
+        
+
       </Routes>
     </Router>
   );
