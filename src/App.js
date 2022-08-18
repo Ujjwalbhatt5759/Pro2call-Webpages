@@ -27,6 +27,10 @@ import ServiceproviderTeamMemberform4 from "./pages/sprint_1/serviceprovider-tea
 import ServiceproviderSignupformFull from "./pages/sprint_1/serviceprovider-signupformFull";
 import ServiceproviderCompanyfull from "./pages/sprint_1/serviceprovider-companyFull";
 
+// Sprint2
+import Addnew from "./pages/sprint_2/serviceprovider-addnew";
+import Editservice from "./pages/sprint_2/serviceprovider-editservice";
+import Listed from "./pages/sprint_2/serviceprovider-listed";
 
 function App() {
   return (
@@ -60,7 +64,11 @@ function App() {
         <Route path='/ServiceproviderSignupformFull' exact element={<ServiceproviderSignupformFull/>} />
         <Route path='/ServiceproviderCompanyfull' exact element={<ServiceproviderCompanyfull/>} />
 
-        
+        {/* Sprint2 */}
+        <Route path='/Addnew' exact element={<Addnew/>} />
+        <Route path='/Editservice' exact element={<Editservice/>} />
+        <Route path='/Listed' exact element={<Listed/>} />
+
 
       </Routes>
     </Router>

@@ -96,9 +96,6 @@ function ServiceproviderCompanylogo () {
                             </div>
                         </div>
 
-
-
-
                     </div>
                 </div>
                 </div>
