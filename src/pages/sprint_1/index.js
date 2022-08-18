@@ -17,7 +17,8 @@ var servicesettings = {
       {
         breakpoint: 600,
         settings: { 
-          slidesToShow: 2
+          slidesToShow: 2,
+          slidesToScroll: 2,
         }
       }
     ]
