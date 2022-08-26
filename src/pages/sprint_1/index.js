@@ -529,7 +529,7 @@ function Home() {
                                             <h1>Download the App</h1>
                                             <p>Explore the community, hire a service provider or post a project</p>
                                             <div class="row mt-3"> 
-                                                <div class="col-md-6 col-6">
+                                                <div class="col-md-6 col-6 pr-2">
                                                     <div class="footbtn mobilesec-btn">
                                                         <Link to="/">
                                                             <div class="row align-items-center">
@@ -539,7 +539,7 @@ function Home() {
                                                         </Link>
                                                     </div>
                                                 </div> 
-                                                <div class="col-md-6 col-6">
+                                                <div class="col-md-6 col-6 pl-2">
                                                 <div class="footbtn mobilesec-btn">
                                                 <Link to="/">
                                                         <div class="row align-items-center">
