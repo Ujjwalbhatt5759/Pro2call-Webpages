@@ -5,23 +5,24 @@ import Slider from "react-slick";
 
 var servicesettings = {
     dots: true,
-    arrows: false,
+    arrows: false, 
     infinite: false,
     speed: 2000,
     slidesToShow: 6,
     slidesToScroll: 3,
-    autoplay: true,
+    autoplay: true, 
     pauseOnHover: false,
-    padding: '60px',
-    responsive: [
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 2
-            }
+    padding: '60px', 
+    responsive: [ 
+      {
+        breakpoint: 600,
+        settings: { 
+          slidesToShow: 2,
+          slidesToScroll: 2,
         }
+      }
     ]
-};
+  };
 
 var clientsettings = {
     dots: true,
