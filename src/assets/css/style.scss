@@ -465,17 +465,20 @@ font-size: 14px; font-weight: 500;}
 
 .service-list{background: #FFFFFF; box-shadow: 0px 12px 34px #20345914; border-radius: 10px;}
 .service-item p{margin-bottom: 0px; color: #51459E; font-size: 16px; font-weight: 700;}
-.service-item h6{color: #000000; font-size: 15px; margin-bottom: 0px;}
+.service-item h6{color: #000000; font-size: 15px; margin-bottom: 0px;     text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;}
 .servie-itemnmb{color: #1B9BDE; font-size: 14px; margin-left: 10px;}
-.service-itemdraft{color: #DD3636; font-size: 14px; margin-left: 10px;}
+.service-itemdraft{color: #DD3636; font-size: 14px; margin-left: 10px; text-transform: uppercase;}
 .service-itemImg{width: 100%; height: 72px;}
 .service-itemImg img{width: 100%; height: 100%; object-fit: cover; border-radius: 10px;}
-.service-publicSec{background: #51459E1A; border-radius: 10px; padding: 19px 15px 19px 0px;}
+.service-publicSec{background: #51459E1A; border-radius: 10px; padding: 19px 15px 19px 10px;}
 .new-loginbtn{padding: 8px 20px;}
 .service-publicSec h4{color: #000000; font-size: 14px; font-weight: 100; margin-bottom: 0px;}
 .service-publicSec h5{margin-bottom: 0px; color: #51459E; font-size: 13px; font-weight: 700;}
 .service-publicpink{background: #DD36361A;}
-.serviceitemylw{color: #E2B63B;}
+.service-itemhourly { color: #E2B63B; }
+.serviceitemyfixed { color: #1B9BDE; }
 
 /*--------Switch Css-------*/
 
@@ -485,7 +488,7 @@ font-size: 14px; font-weight: 500;}
     width: 90px;
     height: 28px;
     margin-bottom: 0;
-    margin: 0 7px 0 10px;
+    margin: 0 7px 0 0px;
   }
   
   .switch input {
