@@ -704,7 +704,7 @@ function Browseservice() {
                         </div>
                     </div>
 
-                    <div class="form-group mt-3 mb-0">
+                    <div class="form-group mt-3 mb-3 mb-sm-0">
                         <input class="filled-in" type="checkbox" value="" id="Check1" />
                         <label class="checkFrom-label" for="Check1">
                             Hourly
