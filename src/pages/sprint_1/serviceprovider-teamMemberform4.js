@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
+import Form from 'react-bootstrap/Form';
+
 function ServiceproviderTeamMemberform4() {
 
     return (
@@ -86,11 +88,15 @@ function ServiceproviderTeamMemberform4() {
 
                                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.3182688614693!2d77.39455371691349!3d28.50007064897341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce86095555555%3A0x70cfc1465b1bc159!2sStaqo%20World%20Private%20Ltd!5e0!3m2!1sen!2sin!4v1649843153429!5m2!1sen!2sin"
                                                         class="iframecontact-map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
                                                     <h4 class="words-text">Adjust proximity radius</h4>
 
+                                                    
 
+                                                    <div class="mt-2">
+                                                       <Form.Label className="range-scroll"></Form.Label><Form.Range className="range-scrollmember" />
+                                                    </div>
 
-                                                    <input id="feedback" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="10" />
                                                     <h4 class="words-text text-center">25mi.</h4>
 
 

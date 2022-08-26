@@ -25,7 +25,7 @@ function Listed() {
                                     <li class="user-picHead">
                                         <a href="#">
                                             <span><img src="images/pro-userpic.jpg" alt="" /></span>
-                                            <p>Hi, MockLabs Inc.!</p>
+                                            <p>Hi, Vinod !</p>
                                         </a>
                                     </li>
                                     <li>
@@ -58,9 +58,9 @@ function Listed() {
                 </div>
             </Navbar>
 
-            <section>
+            <section class="pb-4 pb-sm-5">
                 <div class="container">
-                    <div class="row mt-3">
+                    <div class="row mt-2 mt-sm-3">
                         <div class="col-md-12">
                             <button type="button" class="btn btn-outline-dark mayment-btn mr-3 mb-2">SCHEDULED  <span class="notification-numb btn-notification">2</span></button>
                             <button type="button" class="btn btn-outline-dark mayment-btn mr-3 mb-2">PAYMENT PENDING  <span class="notification-numb btn-notification2">3</span></button>
@@ -77,7 +77,7 @@ function Listed() {
                                     <img src="images/listed-img.jpg" alt="" />
                                 </div>
                             </div>
-                            <div class="col-md-5 pl-0">
+                            <div class="col-md-5 pl-3 pl-sm-0">
                                 <div class="service-item">
                                     <p>#PT0000129899 <span class="servie-itemnmb">12th Jun 2022</span><span class="service-itemdraft">DRAFT</span></p>
                                     <h6>Full bathroom hardware installation for corporate office</h6>
@@ -86,28 +86,31 @@ function Listed() {
                             <div class="col-md-6">
                                 <div class="service-publicSec">
                                     <div class="row">
-                                        <div class="col-md-2">
-                                            {/* <div class="toogleSwitch">
+                                        <div class="col-md-3 col-4 mb-2">
+                                        <div class="toogleSwitch">
                                                 <label class="switch">
-                                                    <input type="checkbox" checked />
-                                                    <span class="slider round"></span>
+                                                    <input type="checkbox" />
+                                                    <div class="slider round">
+                                                        <span class="swactive">ACTIVE</span>
+                                                        <span class="swinactive">INACTIVE</span>
+                                                    </div>
                                                 </label>
-                                            </div> */}
+                                            </div> 
                                         </div>
-                                        <div class="col-md-2 text-right">
+                                        <div class="col-md-1 text-right pl-0 pr-3 pr-sm-0 col-4">
                                             <h4>Cost</h4>
                                             <h5>$120.00</h5>
                                         </div>
-                                        <div class="col-md-2 text-right">
+                                        <div class="col-md-2 text-right  pr-3 pr-sm-0 col-4">
                                             <h4>Earned</h4>
                                             <h5>$1,200.00</h5>
                                         </div>
-                                        <div class="col-md-2 text-right">
+                                        <div class="col-md-2 text-right pr-3 pr-sm-0 col-3 pl-4 pl-sm-3">
                                             <h4>Booked</h4>
                                             <h5>10</h5>
                                         </div>
-                                        <div class="col-md-4 text-right">
-                                            <button type="button" class="btn btn-login new-loginbtn">VIEW DETAILS</button>
+                                        <div class="col-md-4 text-right col-4">
+                                           <button class="uploadBtn">PUBLISH</button>
                                         </div>
                                     </div>
                                 </div>
@@ -122,36 +125,39 @@ function Listed() {
                                     <img src="images/listed-img.jpg" alt="" />
                                 </div>
                             </div>
-                            <div class="col-md-5 pl-0">
+                            <div class="col-md-5 pl-3 pl-sm-0">
                                 <div class="service-item">
-                                    <p>#PT0000129899 <span class="servie-itemnmb">12th Jun 2022</span><span class="service-itemdraft">DRAFT</span></p>
+                                    <p>#PT0000129899 <span class="servie-itemnmb">12th Jun 2022</span><span class="service-itemdraft serviceitemylw">HOURLY</span></p>
                                     <h6>Dolor ut ab sit. Ut vero maiores autem culpa corrupti reiciendis …</h6>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="service-publicSec service-publicpink">
                                     <div class="row">
-                                        <div class="col-md-2">
-                                            {/* <div class="toogleSwitch">
+                                        <div class="col-md-3 col-4 mb-2">
+                                             <div class="toogleSwitch">
                                                 <label class="switch">
-                                                    <input type="checkbox" checked />
-                                                    <span class="slider round"></span>
+                                                    <input type="checkbox" />
+                                                    <div class="slider round">
+                                                        <span class="swactive">ACTIVE</span>
+                                                        <span class="swinactive">INACTIVE</span>
+                                                    </div>
                                                 </label>
-                                            </div> */}
+                                            </div> 
                                         </div>
-                                        <div class="col-md-2 text-right">
+                                        <div class="col-md-1 pl-0 text-right pr-3 pr-sm-0 col-4">
                                             <h4>Cost</h4>
                                             <h5>$120.00</h5>
                                         </div>
-                                        <div class="col-md-2 text-right">
+                                        <div class="col-md-2 text-right  pr-3 pr-sm-0 col-4">
                                             <h4>Earned</h4>
                                             <h5>$1,200.00</h5>
                                         </div>
-                                        <div class="col-md-2 text-right">
+                                        <div class="col-md-2 text-right pr-3 pr-sm-0 col-3 pl-4 pl-sm-3">
                                             <h4>Booked</h4>
                                             <h5>10</h5>
                                         </div>
-                                        <div class="col-md-4 text-right">
+                                        <div class="col-md-4 text-right col-5">
                                             <button type="button" class="btn btn-login new-loginbtn">VIEW DETAILS</button>
                                         </div>
                                     </div>
@@ -161,16 +167,173 @@ function Listed() {
 
                     </div>
 
+                    <div className="service-list mt-3">
+                        <div class="row  align-items-center">
+                            <div class="col-md-1">
+                                <div class="service-itemImg">
+                                    <img src="images/listed-img.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-md-5 pl-3 pl-sm-0">
+                                <div class="service-item">
+                                    <p>#PT0000129899 <span class="servie-itemnmb">12th Jun 2022</span><span class="servie-itemnmb">FIXED</span></p>
+                                    <h6>Dolor ut ab sit. Ut vero maiores autem culpa corrupti reiciendis …</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="service-publicSec">
+                                    <div class="row">
+                                    <div class="col-md-3  col-4 mb-2">
+                                        <div class="toogleSwitch">
+                                                <label class="switch">
+                                                    <input type="checkbox" />
+                                                    <div class="slider round">
+                                                        <span class="swactive">ACTIVE</span>
+                                                        <span class="swinactive">INACTIVE</span>
+                                                    </div>
+                                                </label>
+                                            </div> 
+                                        </div>
+                                        <div class="col-md-1 pl-0 text-right pr-3 pr-sm-0 col-4">
+                                            <h4>Cost</h4>
+                                            <h5>$120.00</h5>
+                                        </div>
+                                        <div class="col-md-2 text-right  pr-3 pr-sm-0 col-4">
+                                            <h4>Earned</h4>
+                                            <h5>$1,200.00</h5>
+                                        </div>
+                                        <div class="col-md-2 text-right pr-3 pr-sm-0 col-3 pl-4 pl-sm-3">
+                                            <h4>Booked</h4>
+                                            <h5>10</h5>
+                                        </div>
+                                        <div class="col-md-4 text-right col-5">
+                                            <button type="button" class="btn btn-login new-loginbtn">VIEW DETAILS</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
+                    </div>
 
+                    <div className="service-list mt-3">
+                        <div class="row  align-items-center">
+                            <div class="col-md-1">
+                                <div class="service-itemImg">
+                                    <img src="images/listed-img.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-md-5 pl-3 pl-sm-0">
+                                <div class="service-item">
+                                    <p>#PT0000129899 <span class="servie-itemnmb">12th Jun 2022</span><span class="servie-itemnmb">FIXED</span></p>
+                                    <h6>Dolor ut ab sit. Ut vero maiores autem culpa corrupti reiciendis …</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="service-publicSec">
+                                    <div class="row">
+                                    <div class="col-md-3 col-4 mb-2">
+                                        <div class="toogleSwitch">
+                                                <label class="switch">
+                                                    <input type="checkbox" />
+                                                    <div class="slider round">
+                                                        <span class="swactive">ACTIVE</span>
+                                                        <span class="swinactive">INACTIVE</span>
+                                                    </div>
+                                                </label>
+                                            </div> 
+                                        </div>
+                                        <div class="col-md-1 pl-0 text-right pr-3 pr-sm-0 col-4">
+                                            <h4>Cost</h4>
+                                            <h5>$120.00</h5>
+                                        </div>
+                                        <div class="col-md-2 text-right  pr-3 pr-sm-0 col-4">
+                                            <h4>Earned</h4>
+                                            <h5>$1,200.00</h5>
+                                        </div>
+                                        <div class="col-md-2 text-right pr-3 pr-sm-0 col-3 pl-4 pl-sm-3">
+                                            <h4>Booked</h4>
+                                            <h5>10</h5>
+                                        </div>
+                                        <div class="col-md-4 text-right col-5">
+                                            <button type="button" class="btn btn-login new-loginbtn">VIEW DETAILS</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className="service-list mt-3">
+                        <div class="row  align-items-center">
+                            <div class="col-md-1">
+                                <div class="service-itemImg">
+                                    <img src="images/listed-img.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-md-5 pl-3 pl-sm-0">
+                                <div class="service-item">
+                                    <p>#PT0000129899 <span class="servie-itemnmb">12th Jun 2022</span><span class="servie-itemnmb">FIXED</span></p>
+                                    <h6>Dolor ut ab sit. Ut vero maiores autem culpa corrupti reiciendis …</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="service-publicSec">
+                                    <div class="row">
+                                    <div class="col-md-3 col-4 mb-2">
+                                        <div class="toogleSwitch">
+                                                <label class="switch">
+                                                    <input type="checkbox" />
+                                                    <div class="slider round">
+                                                        <span class="swactive">ACTIVE</span>
+                                                        <span class="swinactive">INACTIVE</span>
+                                                    </div>
+                                                </label>
+                                            </div> 
+                                        </div>
+                                        <div class="col-md-1 pl-0 text-right pr-3 pr-sm-0 col-4">
+                                            <h4>Cost</h4>
+                                            <h5>$120.00</h5>
+                                        </div>
+                                        <div class="col-md-2 text-right  pr-3 pr-sm-0 col-4">
+                                            <h4>Earned</h4>
+                                            <h5>$1,200.00</h5>
+                                        </div>
+                                        <div class="col-md-2 text-right pr-3 pr-sm-0 col-3 pl-4 pl-sm-3">
+                                            <h4>Booked</h4>
+                                            <h5>10</h5>
+                                        </div>
+                                        <div class="col-md-4 text-right col-5">
+                                            <button type="button" class="btn btn-login new-loginbtn">VIEW DETAILS</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                  <div class="row mt-5">
+                    <div class="col-md-12">
+                        <nav aria-label="...">
+                            <ul class="pagination pagination-lg">
+                              <li class="page-item active" aria-current="page">
+                                <a href="#" class="page-link">
+                                  1
+                                </a>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">2</a></li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item"><a class="page-link newpage-link" href="#">.........</a></li>
+                              <li class="page-item"><a class="page-link" href="#">11</a></li>
+                            </ul>
+                          </nav>
+                      </div>
+                    </div> 
 
                 </div>
             </section>
-
-
-
-
-
 
 
 

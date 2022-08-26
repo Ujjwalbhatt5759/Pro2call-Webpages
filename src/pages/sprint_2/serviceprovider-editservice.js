@@ -177,7 +177,7 @@ function Editservice() {
                                     <Accordion defaultActiveKey="0" className="accordreact">
                                         <Accordion.Item eventKey="0">
                                             <Accordion.Header>
-                                            <img src="images/close-w.svg" class="mr-2" height="18px" alt="" /> Question 1 
+                                            <img src="images/close-w.svg" class="mr-2 addNew-accorimg" height="18px" alt="" /> Question 1 
                                             <span class="added-accordtext"><img src="images/arrow-down.svg"  alt="" /></span>
                                             </Accordion.Header>
                                             <Accordion.Body>
@@ -192,7 +192,7 @@ function Editservice() {
                                         </Accordion.Item>
                                         <Accordion.Item eventKey="1">
                                             <Accordion.Header>
-                                            <img src="images/close-w.svg" class="mr-2" height="18px" alt="" /> Question 2 
+                                            <img src="images/close-w.svg" class="mr-2 addNew-accorimg" height="18px" alt="" /> Question 2 
                                             <span class="added-accordtext"><img src="images/arrow-down.svg"  alt="" /></span>
                                             </Accordion.Header>
                                             <Accordion.Body>
@@ -207,7 +207,7 @@ function Editservice() {
                                         </Accordion.Item>
                                         <Accordion.Item eventKey="2">
                                             <Accordion.Header>
-                                            <img src="images/close-w.svg" class="mr-2" height="18px" alt="" /> Question 3 
+                                            <img src="images/close-w.svg" class="mr-2 addNew-accorimg" height="18px" alt="" /> Question 3 
                                             <span class="added-accordtext"><img src="images/arrow-down.svg"  alt="" /></span>
                                             </Accordion.Header>
                                             <Accordion.Body>
@@ -222,7 +222,7 @@ function Editservice() {
                                         </Accordion.Item>
                                         <Accordion.Item eventKey="3">
                                             <Accordion.Header>
-                                            <img src="images/close-w.svg" class="mr-2" height="18px" alt="" /> Question 4 
+                                            <img src="images/close-w.svg" class="mr-2 addNew-accorimg" height="18px" alt="" /> Question 4 
                                             <span class="added-accordtext"><img src="images/arrow-down.svg"  alt="" /></span>
                                             </Accordion.Header>
                                             <Accordion.Body>

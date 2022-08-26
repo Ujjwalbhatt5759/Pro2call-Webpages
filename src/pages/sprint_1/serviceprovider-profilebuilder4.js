@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import Form from 'react-bootstrap/Form';
 
 function ServiceproviderProfilebuilder4 () { 
     
@@ -86,8 +87,10 @@ function ServiceproviderProfilebuilder4 () {
 
                                              
 
-                                                <input id="feedback" data-slider-id='ex1Slider' type="text" data-slider-min="0"
-                                                 data-slider-max="20" data-slider-step="1" data-slider-value="10" />
+                                                <div class="mt-2">
+                                                       <Form.Label></Form.Label><Form.Range className="range-scrollmember" />
+                                                </div>
+                                                
                                                 <h4 class="words-text text-center">25mi.</h4>
                                                            
                                                     <div class="row mt-4 mb-4">

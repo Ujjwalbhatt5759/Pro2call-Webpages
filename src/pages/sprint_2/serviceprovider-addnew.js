@@ -21,7 +21,7 @@ function Addnew() {
                                 <ul class="tophead-right">
                                     <li class="client-loginHead d-none d-sm-block">
                                         <a href="#">
-                                            <img src="images/service-prohead-img.png" class="pro-headimg" alt="" />You are logged in as a <span>SERVICE PROVIDER COMPANY</span>
+                                            <img src="images/service-prohead-img.png" class="pro-headimg" alt="" />You are logged in as a <span>SERVICE PROVIDER</span>
                                         </a>
                                     </li>
                                     <li class="user-picHead">
@@ -181,7 +181,7 @@ function Addnew() {
                                     <Accordion defaultActiveKey="0" className="accordreact">
                                         <Accordion.Item eventKey="0">
                                             <Accordion.Header>
-                                            <img src="images/close-w.svg" class="mr-2" height="18px" alt="" /> Question 1 
+                                             <img src="images/close-w.svg" class="mr-2 addNew-accorimg"  height="18px" alt="" />  Question 1 
                                             <span class="added-accordtext"><img src="images/arrow-down.svg"  alt="" /></span>
                                             </Accordion.Header>
                                             <Accordion.Body>
@@ -196,7 +196,7 @@ function Addnew() {
                                         </Accordion.Item>
                                         <Accordion.Item eventKey="1">
                                             <Accordion.Header>
-                                            <img src="images/close-w.svg" class="mr-2" height="18px" alt="" /> Question 2 
+                                            <img src="images/close-w.svg" class="mr-2 addNew-accorimg" height="18px" alt="" /> Question 2 
                                             <span class="added-accordtext"><img src="images/arrow-down.svg"  alt="" /></span>
                                             </Accordion.Header>
                                             <Accordion.Body>
@@ -211,7 +211,7 @@ function Addnew() {
                                         </Accordion.Item>
                                         <Accordion.Item eventKey="2">
                                             <Accordion.Header>
-                                            <img src="images/close-w.svg" class="mr-2" height="18px" alt="" /> Question 3 
+                                            <img src="images/close-w.svg" class="mr-2 addNew-accorimg" height="18px" alt="" /> Question 3 
                                             <span class="added-accordtext"><img src="images/arrow-down.svg"  alt="" /></span>
                                             </Accordion.Header>
                                             <Accordion.Body>
@@ -226,7 +226,7 @@ function Addnew() {
                                         </Accordion.Item>
                                         <Accordion.Item eventKey="3">
                                             <Accordion.Header>
-                                            <img src="images/close-w.svg" class="mr-2" height="18px" alt="" /> Question 4 
+                                            <img src="images/close-w.svg" class="mr-2 addNew-accorimg" height="18px" alt="" /> Question 4 
                                             <span class="added-accordtext"><img src="images/arrow-down.svg"  alt="" /></span>
                                             </Accordion.Header>
                                             <Accordion.Body>

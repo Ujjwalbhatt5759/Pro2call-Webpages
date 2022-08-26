@@ -31,6 +31,20 @@ import ServiceproviderCompanyfull from "./pages/sprint_1/serviceprovider-company
 import Addnew from "./pages/sprint_2/serviceprovider-addnew";
 import Editservice from "./pages/sprint_2/serviceprovider-editservice";
 import Listed from "./pages/sprint_2/serviceprovider-listed";
+import ServiceproviderListeddetails from "./pages/sprint_2/serviceprovider-listedDetails";
+import Browseservice from "./pages/sprint_2/browseservice";
+import Browseservicefilterapplied from "./pages/sprint_2/browseservice-filter-applied";
+import Browseservicesorting from "./pages/sprint_2/browseservice-sorting";
+import Clientbrowsse from "./pages/sprint_2/client-browse";
+import Clientbrowsecheckout from "./pages/sprint_2/client-browseCheckout";
+import Browseserviceprojectdetails2 from "./pages/sprint_2/Browseservice-project-details2";
+import BrowseserviceprojectdetailsHourly from "./pages/sprint_2/Browseservice-project-detailsHourly";
+import Browseserviceprojectdetails1 from "./pages/sprint_2/Browseservice-project-details1";
+import ClientbrowseDetails from "./pages/sprint_2/client-browseDetails";
+import ClientbrowseDetailsservices from "./pages/sprint_2/client-browseDetails(services)";
+import ClientbrowsecheckoutConfirmed from "./pages/sprint_2/client-browseCheckoutconfirmed";
+import ProjectdeatilPayment from "./pages/sprint_2/projectdetail-payment";
+import ProjectdeatilPaymentconfirmed from "./pages/sprint_2/projectdetail-paymentconfirmed";
 
 function App() {
   return (
@@ -68,7 +82,24 @@ function App() {
         <Route path='/Addnew' exact element={<Addnew/>} />
         <Route path='/Editservice' exact element={<Editservice/>} />
         <Route path='/Listed' exact element={<Listed/>} />
+        <Route path='/ServiceproviderListeddetails' exact element={<ServiceproviderListeddetails/>} />
+        {/*  */}
+        <Route path='/Browseservice' exact element={<Browseservice/>} />
+        <Route path='/Browseservicefilterapplied' exact element={<Browseservicefilterapplied/>} />
+        <Route path='/Browseservicesorting' exact element={<Browseservicesorting/>} />
+        <Route path='/Browseserviceprojectdetails2' exact element={<Browseserviceprojectdetails2/>} />
+        <Route path='/BrowseserviceprojectdetailsHourly' exact element={<BrowseserviceprojectdetailsHourly/>} />
+        <Route path='/Browseserviceprojectdetails1' exact element={<Browseserviceprojectdetails1/>} />
+        {/*  */}
+        <Route path='/Clientbrowsse' exact element={<Clientbrowsse/>} />
+        <Route path='/Clientbrowsecheckout' exact element={<Clientbrowsecheckout/>} />
+        <Route path='/ClientbrowseDetails' exact element={<ClientbrowseDetails/>} />
+        <Route path='/ClientbrowseDetailsservices' exact element={<ClientbrowseDetailsservices/>} />
+        <Route path='/ClientbrowsecheckoutConfirmed' exact element={<ClientbrowsecheckoutConfirmed/>} />
 
+        {/*  */}
+        <Route path='/ProjectdeatilPayment' exact element={<ProjectdeatilPayment/>} />
+        <Route path='/ProjectdeatilPaymentconfirmed' exact element={<ProjectdeatilPaymentconfirmed/>} />
 
       </Routes>
     </Router>
