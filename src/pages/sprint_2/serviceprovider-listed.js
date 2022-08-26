@@ -364,9 +364,6 @@ function Listed() {
                         </div> 
                     </div>
 
-
- 
-
                   <div class="row mt-4 mt-sm-5">
                     <div class="col-md-12">
                         <nav aria-label="...">
