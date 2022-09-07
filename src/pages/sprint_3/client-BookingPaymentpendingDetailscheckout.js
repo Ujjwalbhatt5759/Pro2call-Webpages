@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-function Clientbrowsecheckout () {
+function ClientBookingPaymentpendingDetailscheckout () {
 
     return (
         <>
@@ -53,7 +53,7 @@ function Clientbrowsecheckout () {
                     <div class="row pt-4">
                         <div class="col-md-12 mt-2 pt-5 mt-sm-5 position-inherit">
                             <h1>checkout</h1>
-                            <h2>to book you slot</h2>
+                            <h2>& pay $730.00</h2>
 
                             <div class="row">
                                 <div class="col-md-5">
@@ -72,14 +72,6 @@ function Clientbrowsecheckout () {
                                                 <input class="filled-in" type="checkbox" value="" id="Check1" />
                                                 <label class=" checkFrom-label" for="Check1">
                                                     Digital wallet (Paypal, stripe etc.)
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 pr-0">
-                                            <div class="form-group">
-                                                <input class="filled-in" type="checkbox" value="" id="Check3" />
-                                                <label class="checkFrom-label" for="Check3">
-                                                    Pay after service
                                                 </label>
                                             </div>
                                         </div>
@@ -166,16 +158,9 @@ function Clientbrowsecheckout () {
                             </div>
 
 
-
-
-
-
-
-
-
                             <div class="row mt-2 mb-4">
                                 <div class="col-md-12">
-                                    <button type="button" class="btn btn-login ">PAY & PROCEED TO BOOK A SLOT</button>
+                                    <button type="button" class="btn btn-login ">PROCEED TO PAYMENT</button>
                                 </div>
                             </div>
 
@@ -194,4 +179,4 @@ function Clientbrowsecheckout () {
     );
 }
 
-export default Clientbrowsecheckout;
+export default ClientBookingPaymentpendingDetailscheckout;

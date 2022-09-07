@@ -46,6 +46,27 @@ import ClientbrowsecheckoutConfirmed from "./pages/sprint_2/client-browseCheckou
 import ProjectdeatilPayment from "./pages/sprint_2/projectdetail-payment";
 import ProjectdeatilPaymentconfirmed from "./pages/sprint_2/projectdetail-paymentconfirmed";
 
+//sprint_3
+import ServiceproviderServicesScheduled from "./pages/sprint_3/serviceprovider-servicesScheduled";
+import ServiceproviderServicesScheduleddetails from "./pages/sprint_3/serviceprovider-serviceScheduleddetails";
+import ServiceproviderServicesReScheduledconfirmed from "./pages/sprint_3/serviceprovider-serviceRescheduledconfirmed";
+import ServiceproviderServicesCancelbookingconfirmed from "./pages/sprint_3/serviceprovider-serviceCancelbookingconfirmed";
+import ServiceproviderServicesPaymentpending from "./pages/sprint_3/serviceprovider-servicesPaymentpending";
+import ServiceproviderServicesPaymentpendingdetails from "./pages/sprint_3/serviceprovider-servicePaymentpendingdetails";
+import ServiceproviderServicesHistory from "./pages/sprint_3/serviceprovider-servicesHistory";
+import ServiceproviderServicesHistoryDetailsreview from "./pages/sprint_3/serviceprovider-serviceHistoryDetailsreview";
+import ServiceproviderServicesHistoryDetailsAlreadyreviewed from "./pages/sprint_3/serviceprovider-serviceHistoryDetailsAlreadyreviewed";
+import ClientBookingscheduled from "./pages/sprint_3/client-Bookingscheduled";
+import ClientBookingscheduledDetails from "./pages/sprint_3/client-BookingscheduledDetails";
+import ClientBookingdetailsReScheduledconfirmed from "./pages/sprint_3/client-BookingscheduledRescheduledconfirmed";
+import ClientBookingdetailsCancelconfirmed from "./pages/sprint_3/client-Bookingscheduled-Canceconfirmed";
+import ClientBookingPendingpayment from "./pages/sprint_3/client-BookingPaymentpending";
+import ClientBookingPaymentpendingDetails from "./pages/sprint_3/clinet-BookingPaymentpendingDetails";
+import ClientBookingPaymentpendingDetailscheckout from "./pages/sprint_3/client-BookingPaymentpendingDetailscheckout";
+import ClientBookingPastdetails from "./pages/sprint_3/clinet-BookingPastdetails";
+import ClinetBookingpast from "./pages/sprint_3/client-Bookingpast";
+
+
 function App() {
   return (
     <Router>
@@ -100,6 +121,26 @@ function App() {
         {/*  */}
         <Route path='/ProjectdeatilPayment' exact element={<ProjectdeatilPayment/>} />
         <Route path='/ProjectdeatilPaymentconfirmed' exact element={<ProjectdeatilPaymentconfirmed/>} />
+
+        {/* sprint-3 */}
+        <Route path='/ServiceproviderServicesScheduled' exact element={<ServiceproviderServicesScheduled/>} />
+        <Route path='/ServiceproviderServicesScheduleddetails' exact element={<ServiceproviderServicesScheduleddetails/>} />
+        <Route path='/ServiceproviderServicesReScheduledconfirmed' exact element={<ServiceproviderServicesReScheduledconfirmed/>} />
+        <Route path='/ServiceproviderServicesCancelbookingconfirmed' exact element={<ServiceproviderServicesCancelbookingconfirmed/>} />
+        <Route path='/ServiceproviderServicesPaymentpending' exact element={<ServiceproviderServicesPaymentpending/>} />
+        <Route path='/ServiceproviderServicesPaymentpendingdetails' exact element={<ServiceproviderServicesPaymentpendingdetails/>} />
+        <Route path='/ServiceproviderServicesHistory' exact element={<ServiceproviderServicesHistory/>} />
+        <Route path='/ServiceproviderServicesHistoryDetailsreview' exact element={<ServiceproviderServicesHistoryDetailsreview/>} />
+        <Route path='/ServiceproviderServicesHistoryDetailsAlreadyreviewed' exact element={<ServiceproviderServicesHistoryDetailsAlreadyreviewed/>} />
+        <Route path='/ClientBookingscheduled' exact element={<ClientBookingscheduled/>} />
+        <Route path='/ClientBookingscheduledDetails' exact element={<ClientBookingscheduledDetails/>} />
+        <Route path='/ClientBookingdetailsReScheduledconfirmed' exact element={<ClientBookingdetailsReScheduledconfirmed/>} />
+        <Route path='/ClientBookingdetailsCancelconfirmed' exact element={<ClientBookingdetailsCancelconfirmed/>} />
+        <Route path='/ClientBookingPendingpayment' exact element={<ClientBookingPendingpayment/>} />
+        <Route path='/ClientBookingPaymentpendingDetails' exact element={<ClientBookingPaymentpendingDetails/>} />
+        <Route path='/ClientBookingPaymentpendingDetailscheckout' exact element={<ClientBookingPaymentpendingDetailscheckout/>} />
+        <Route path='/ClientBookingPastdetails' exact element={<ClientBookingPastdetails/>} />
+        <Route path='/ClinetBookingpast' exact element={<ClinetBookingpast/>} />
 
       </Routes>
     </Router>
