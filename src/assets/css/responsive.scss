@@ -43,7 +43,7 @@
 	.top-bannerHead h1 {font-size: 36px;}
 	.top-bannerHead h2 {font-size: 19px;}
 	.top-banner-searchbar {padding: 5px 10px;}
-	.search-icon {height: 20px; top: 9px;}
+	.search-icon {height: 20px; top: 7px;}
 	.search-inpt {font-size: 12px; padding-left: 25px; text-overflow: ellipsis;}
 	.hero-section ul li {font-size: 11px; margin-right: 10px;}
 	.footbtn h5{font-size: 10px;}
@@ -292,17 +292,28 @@
 
 .paymentpendingassuredbox{padding: 0px 0px; background: url(../images/green-tick.svg) bottom right; background-repeat: no-repeat;
     background-size: 30%; }
-	.bookingcancel-popup .modal-body {
-		padding: 1rem 20px;
-	}
-	.cancel-bookingpopup h1 {font-size: 16px;}
-	.bookingcancel-popup .modal-header {
-		padding: 15px 20px 0px 20px;
-	}
-	.new-popupimg {
-		width: 100%;
-		height: 200px;
-	}
+.bookingcancel-popup .modal-body {padding: 1rem 20px;}
+.cancel-bookingpopup h1 {font-size: 16px;}
+.bookingcancel-popup .modal-header {padding: 15px 20px 0px 20px;}
+.new-popupimg {width: 100%; height: 200px;}
+
+//sprint-4
+.nav-tabs .nav-link:last-child{margin-right: 0px;}
+.hire-steptab .nav-link{padding: 5px 4px 5px 0px;}
+.hire-thankyou{padding-top: 10px;}
+.service-itemnew p{padding-left: 0px;}
+.new-foundcenter{padding: 0px;}
+
+.account-timeslotsec {padding: 10px 22px;}
+.fc .fc-toolbar-title {font-size: 25px;}
+.newclient-headclender h2 {top: 35px;}
+.fc .fc-toolbar.fc-header-toolbar {margin-bottom: 30px;}
+.fc .fc-daygrid-day-number {font-size: 18px;}
+.fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events {
+  min-height: 1.5em;
+}
+.balk-actionsection ul li {width: 100%;}
+
 
 
 	

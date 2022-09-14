@@ -46,6 +46,8 @@ import ClientbrowsecheckoutConfirmed from "./pages/sprint_2/client-browseCheckou
 import ProjectdeatilPayment from "./pages/sprint_2/projectdetail-payment";
 import ProjectdeatilPaymentconfirmed from "./pages/sprint_2/projectdetail-paymentconfirmed";
 
+import ServiceproviderindividualAccountTimeslot from "./pages/sprint_2/serviceprovider-individualAccountTimeslot";
+
 //sprint_3
 import ServiceproviderServicesScheduled from "./pages/sprint_3/serviceprovider-servicesScheduled";
 import ServiceproviderServicesScheduleddetails from "./pages/sprint_3/serviceprovider-serviceScheduleddetails";
@@ -65,6 +67,21 @@ import ClientBookingPaymentpendingDetails from "./pages/sprint_3/clinet-BookingP
 import ClientBookingPaymentpendingDetailscheckout from "./pages/sprint_3/client-BookingPaymentpendingDetailscheckout";
 import ClientBookingPastdetails from "./pages/sprint_3/clinet-BookingPastdetails";
 import ClinetBookingpast from "./pages/sprint_3/client-Bookingpast";
+
+// sprint-4
+import ServiceproviderHirestep1 from "./pages/sprint_4/serviceprovider-Hirestep1";
+import ServiceproviderHirestep2 from "./pages/sprint_4/serviceprovider-Hirestep2";
+import ServiceproviderHirestep3 from "./pages/sprint_4/serviceprovider-Hirestep3";
+import ServiceproviderHirestep4 from "./pages/sprint_4/serviceprovider-Hirestep4";
+import ServiceproviderHireReviewproject from "./pages/sprint_4/serviceprovider-HireReviewproject";
+import ServiceproviderHireReviewprojectmilestone from "./pages/sprint_4/serviceprovider-HireReviewproject -milestone";
+import ServiceproviderHirereviewprojectCheckout from "./pages/sprint_4/serviceprovider-HireReviewprojectCheckout";
+import ServiceproviderHirereviewprojectCheckoutThankyou from "./pages/sprint_4/serviceprovider-HireReviewprojectCheckout - Thankyou";
+import ServiceproviderindividualBrowse from "./pages/sprint_4/serviceprovider-individualBrowse";
+import ServiceproviderindividualBrowseprojectFixed from "./pages/sprint_4/serviceproviderIndividual-BrowseprojectFixed";
+import ServiceproviderindividualBrowseprojectHourly from "./pages/sprint_4/serviceproviderIndividual-BrowseprojectHourly";
+import ServiceproviderindividualBrowseprojectFixedBidders from "./pages/sprint_4/serviceproviderIndividual-BrowseprojectFixedBidders";
+import ServiceproviderindividualBrowseprojectdeatialsBidsubmitted from "./pages/sprint_4/serviceprovider-individual-BrowseprojectdetailsBidsubmitted";
 
 
 function App() {
@@ -121,6 +138,10 @@ function App() {
         {/*  */}
         <Route path='/ProjectdeatilPayment' exact element={<ProjectdeatilPayment/>} />
         <Route path='/ProjectdeatilPaymentconfirmed' exact element={<ProjectdeatilPaymentconfirmed/>} />
+        <Route path='/ServiceproviderindividualAccountTimeslot' exact element={<ServiceproviderindividualAccountTimeslot/>} />
+
+
+
 
         {/* sprint-3 */}
         <Route path='/ServiceproviderServicesScheduled' exact element={<ServiceproviderServicesScheduled/>} />
@@ -141,6 +162,21 @@ function App() {
         <Route path='/ClientBookingPaymentpendingDetailscheckout' exact element={<ClientBookingPaymentpendingDetailscheckout/>} />
         <Route path='/ClientBookingPastdetails' exact element={<ClientBookingPastdetails/>} />
         <Route path='/ClinetBookingpast' exact element={<ClinetBookingpast/>} />
+
+        {/* sprint-4 */}
+        <Route path='/ServiceproviderHirestep1' exact element={<ServiceproviderHirestep1/>} />
+        <Route path='/ServiceproviderHirestep2' exact element={<ServiceproviderHirestep2/>} />
+        <Route path='/ServiceproviderHirestep3' exact element={<ServiceproviderHirestep3/>} />
+        <Route path='/ServiceproviderHirestep4' exact element={<ServiceproviderHirestep4/>} />
+        <Route path='/ServiceproviderHireReviewproject' exact element={<ServiceproviderHireReviewproject/>} />
+        <Route path='/ServiceproviderHireReviewprojectmilestone' exact element={<ServiceproviderHireReviewprojectmilestone/>} />
+        <Route path='/ServiceproviderHirereviewprojectCheckout' exact element={<ServiceproviderHirereviewprojectCheckout/>} />
+        <Route path='/ServiceproviderHirereviewprojectCheckoutThankyou' exact element={<ServiceproviderHirereviewprojectCheckoutThankyou/>} />
+        <Route path='/ServiceproviderindividualBrowse' exact element={<ServiceproviderindividualBrowse/>} />
+        <Route path='/ServiceproviderindividualBrowseprojectFixed' exact element={<ServiceproviderindividualBrowseprojectFixed/>} />
+        <Route path='/ServiceproviderindividualBrowseprojectHourly' exact element={<ServiceproviderindividualBrowseprojectHourly/>} />
+        <Route path='/ServiceproviderindividualBrowseprojectFixedBidders' exact element={<ServiceproviderindividualBrowseprojectFixedBidders/>} />
+        <Route path='/ServiceproviderindividualBrowseprojectdeatialsBidsubmitted' exact element={<ServiceproviderindividualBrowseprojectdeatialsBidsubmitted/>} />
 
       </Routes>
     </Router>

@@ -364,7 +364,7 @@ font-size: 20px; width: 900px;}
 /* Serviceprovider profile-builder1*/
 .nav-tabs{border-bottom: none;}
 .nav-tabs .nav-link {border: none; position: relative;}
-.nav-tabs .nav-link {color: #51459e33; font-weight: 500; font-size: 16px; margin-right: 20px; padding: 5px 30px 5px 0px;}
+.nav-tabs .nav-link {color: #51459e33; font-weight: 500; font-size: 16px; margin-right: 20px; padding: 5px 29px 5px 0px;}
 .nav-tabs .nav-link.active {color: #51459E;  position: relative;}
 .nav-tabs .nav-link.active:after{
      content: "";
@@ -464,7 +464,7 @@ font-size: 14px; font-weight: 500;}
 .accordreact .accordion-header .accordion-button .added-accordtext{float: right; color: #5A9E45; font-weight: 500; font-size: 14px;}
 .accordreact .accordion-header .accordion-button .added-blackText{float: right; color: #242424; font-weight: 500; font-size: 14px;}
 
-.service-list{background: #FFFFFF; box-shadow: 0px 12px 34px #20345914; border-radius: 10px;}
+.service-list{background: #FFFFFF; box-shadow: 0px 12px 34px #20345914; border-radius: 10px; position: relative;}
 .service-item p{margin-bottom: 0px; color: #51459E; font-size: 16px; font-weight: 700;}
 .service-item h6{color: #000000; font-size: 15px; margin-bottom: 0px;     text-overflow: ellipsis;
     overflow: hidden;
@@ -563,7 +563,7 @@ input:not(:checked) + .slider span.swinactive { display: inline-block; font-size
 
   /*-----switch Css ends------*/
 
-.details-btn{color: #FFFFFF; background: #1B9BDE; text-transform: uppercase; border-radius: 8px; font-size: 13px; font-weight: 600; padding: 8px 30px;}
+.details-btn{color: #FFFFFF; border: 1px solid #1B9BDE; background: #1B9BDE; text-transform: uppercase; border-radius: 8px; font-size: 13px; font-weight: 600; padding: 8px 30px;}
 .slider2{box-shadow: 0px 3px 6px #00000029;}
 .serviceListeddetails-head p{margin-bottom: 0px; line-height: 15px; color: #51459E; font-size: 16px; font-weight: 700; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
 .serviceListeddetails-head h6{color: #242424; font-weight: 500; font-size: 16px; margin-bottom: 0px; margin-top: 3px;}
@@ -686,7 +686,7 @@ input:not(:checked) + .slider span.swinactive { display: inline-block; font-size
 .found-right h3{font-size: 35px; margin-bottom: 0px;  letter-spacing: -2px; color: #000000; font-weight: 700;  opacity: 0.8;}
 .found-right p{font-size: 20px;  letter-spacing: -1px; color: #000000; opacity: 0.5; font-weight: 700;}
 .found-right .date{letter-spacing: -0.9px; margin-bottom: 20px;  color: #DD3636; opacity: 0.8; font-size: 15px; font-weight: 700; line-height: 12px;}
-.hourly-right{background: #DD36361A;}
+.hourly-right{background: #DD36361A !important;}
 .start-right{background: #1B9BDE1A;}
 
 
@@ -721,10 +721,10 @@ input:not(:checked) + .slider span.swinactive { display: inline-block; font-size
 .client-section h1 span{color: #5A9E45;}
 
 .booking-confirmed p{color: #000000; font-size: 16px; font-weight: 400; margin-bottom: 0px;}
-.booking-confirmed h6{color: #00000099; font-size: 15px; font-weight: 400; margin-top: 15px;}
+.booking-confirmed h6{color: #00000099; font-size: 15px; font-weight: 400; margin-top: 15px; margin-bottom: 0px; line-height: 18px;}
 .booking-confirmed h4{color: #51459E; font-weight: 700; font-size: 14px; margin-bottom: 0px; margin-top: 0px;}
 .booking-confirmed h5{color: #242424; font-weight: 500; font-size: 14px; margin-bottom: 0px;}
-.booking-confirmed h1{color: #000000; font-weight: 700; font-size: 25px; margin-bottom: 0px;}
+.booking-confirmed h1{color: #000000; font-weight: 700; font-size: 25px; margin-bottom: 0px; line-height: 18px;}
 
 .booking-confrd .play-img{height: 30px; width: 30px; border-radius: 50%; object-fit: cover; object-position: top;
 }
@@ -1073,7 +1073,99 @@ background-position: right;  padding: 40px 20px;}
 .new-popupimg{width: 100%; height: 220px;}
 .new-popupimg img{width: 100%; height: 100%; object-fit: contain;}
 
+//sprint4
+.nav-tabs .nav-link:last-child{margin-right: 0px;}
+.hirestep-rise{margin-bottom: 0px; color: #242424; font-weight: 500; font-size: 16px;}
+.milestonepupup-input{background: #FFFFFF; border: 1px solid #DDDDDD; border-radius: 10px; font-size: 13px;
+     font-weight: 500; padding: 33px 18px 33px 18px;}
+.milestonepupup-input:focus{background: #FFFFFF; border: 1px solid #DDDDDD; outline: none; box-shadow: none;}
+.milestonepupup-input::placeholder{color: #24242466;}
+.milestonepupup-label{color: #242424; font-size: 14px; font-weight: 500;}
+.milestone-pstion{position: absolute; right: 18px; top: 20px;}
+.sericeproviderCheckoutThankyou{background: none;}
+.hire-thankyou{padding-top: 300px;}
 
+
+.service-individual-browsetext p{color: #FFFFFF; margin-bottom: 0px; writing-mode: vertical-lr; transform: rotate(180deg);
+     background: #51459E; box-shadow: 0px 12px 34px #20345914; border-radius: 10px; padding: 18px 10px;
+     margin-left: 0px; font-weight: 700; font-size: 14px;}
+.service-individualcompany{margin-left: 0px; font-weight: 700;}
+
+.service-itemnew p{color: #242424; font-weight: 500;}
+.service-individual-browsetextyellow p{background: #FAD15C; color: #9D7D24;  padding: 10px 10px;}
+.serviceitemyindividual{color: #919191;}
+
+.projectmilestoneaccord .accordion-header .accordup { display: none; float: right }
+.projectmilestoneaccord .accordion-header .accorddown { float: right }
+.projectmilestoneaccord .accordion-header .collapsed .accorddown { display: none; float: right }
+.projectmilestoneaccord .accordion-header .collapsed .accordup { display: block; float: right }
+
+.projectmilestone-headtext p { margin-bottom: 0px; color: #000000; font-weight: 700; font-size: 15px; display: flex; align-items: center;}
+.projectmilestone-headtext img{height: 18px; margin-right: 6px;}
+.projectmilestone-headtext{background: #51459E1A; position: absolute; padding: 8px 35px; left: -6px; top: -23px;}
+
+.projectmilestoneaccord .card-header .milestone-blacktext{float: right; color: #000000 !important; font-weight: 500; font-size: 14px;}
+.project-milestonesinner p{margin-bottom: 0px; color: #000000; font-weight: 500; font-size: 15px;}
+.project-milestonesinner p {font-size: 12px;}
+.similar-projectbids{color: #000000cc; font-weight: 400; font-size: 14px; margin-bottom: 0px;}
+.similar-projectredtext{color: #dd3636cc; font-weight: 700; font-size: 14px; margin-bottom: 0px;}
+.hourly-btnnew{padding: 8px 30px; box-shadow: 0px 12px 34px #20345914;
+    border-radius: 10px; color: #9D7D24; font-weight: 700; font-size: 13px;}
+.new-explorebtn{font-weight: 700; padding: 8px 25px; font-size: 13px; border-radius: 8px;}
+.new-fixedcost p{font-size: 14px; color: #000000cc;}
+.new-costvalue{color: #51459E; font-weight: 700; font-size: 12px;}
+.seattle-Washinton{color: #1B9BDE; font-weight: 700; font-size: 12px;}
+.submitmy-bidnew{position: absolute; right: 15px; top: 18px;}
+.bid-submittedtext{color: #000000cc; font-size: 12px;}
+.submitted-bidblue{color: #51459E; font-size: 12px; font-weight: 600;}
+
+
+
+// 
+.account-timeslotsec{background: #51459E05; border-radius: 8px; padding: 20px 40px;}
+.new-labelbluetext{color: #51459E; font-weight: 700;}
+.balk-actionsection ul {margin: 0px; padding: 0px;}
+.balk-actionsection ul li{list-style: none; width: 49%; float: left; margin-bottom: 6px; margin-right: 6px;  }
+.balk-actionsection ul li:nth-child(2n+2) { margin-right: 0px;  }
+.fc-today-button { display: none !important;}
+.fc a:hover { text-decoration: none;} 
+.fc .fc-toolbar-title {margin: 0; color: #242424; font-size: 40px; font-weight: 900; margin-bottom: 0px;}
+.fc .fc-button-primary:disabled {display: none;}
+.newclient-headclender h2{position: absolute; top: 48px;}
+.fc .fc-daygrid-day-top {text-align: center; align-items: center; justify-content: center; }
+.fc-theme-standard .fc-scrollgrid {border: none;}
+
+.fc-theme-standard td, .fc-theme-standard th {border: none;}
+.fc .fc-daygrid-day-number {color: #242424; font-size: 30px; font-weight: 300; padding: 0px;}
+.fc .fc-col-header-cell-cushion {color: #51459E; font-weight: 700; font-size: 13px;}
+
+.fc .fc-daygrid-day-frame {border: 1px solid #51459E33; border-radius: 8px !important; margin: 5px;}
+
+.fc .fc-daygrid-day.fc-day-today {background: none;}
+.fc .fc-daygrid-day.fc-day-today .fc-daygrid-day-frame{background: #51459E !important; border: 1px solid #51459E33;
+        border-radius: 8px; }
+.fc .fc-daygrid-day.fc-day-today .fc-daygrid-day-frame .fc-daygrid-day-number{color: #FFFFFF;}
+.fc .fc-daygrid-day.fc-day-today .fc-daygrid-day-frame .fc-h-event .fc-event-main {color: #FFFFFF !important;}
+
+.fc-h-event {background: none; border: none; }
+.fc-h-event .fc-event-main {color: #51459E !important; font-weight: 500; font-size: 10px;}
+.fc .fc-daygrid-event {text-align: center;}
+.fc .fc-daygrid-day-events{margin-top: 0px;}
+
+.fc .fc-button-primary {background-color: #FFFFFF; border-color: #FFFFFF;}
+.fc .fc-button .fc-icon {color: #000000;}
+.fc .fc-button-primary:hover {
+    color: #000000;
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+}
+.fc .fc-button-primary:focus, .fc .fc-button:active {
+    box-shadow: none !important;
+    background: none !important; 
+    border: none !important;
+}
+
+.fc .fc-toolbar.fc-header-toolbar { margin-bottom: 46px;}
 
 
 

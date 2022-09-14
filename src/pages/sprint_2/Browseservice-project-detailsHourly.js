@@ -35,7 +35,7 @@ var slidersecondsetting = {
     ]
 };
 
-function BrowseserviceprojectdetailsHourly() {
+function BrowseserviceprojectdetailsHourly () {
 
     const [nav1, setNav1] = useState();
     const [nav2, setNav2] = useState();
