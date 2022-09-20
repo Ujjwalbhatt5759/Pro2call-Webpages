@@ -84,6 +84,12 @@ import ServiceproviderindividualBrowseprojectFixedBidders from "./pages/sprint_4
 import ServiceproviderindividualBrowseprojectdeatialsBidsubmitted from "./pages/sprint_4/serviceprovider-individual-BrowseprojectdetailsBidsubmitted";
 
 
+// new
+import ClientprojectPosted from "./pages/sprint_5/client-projectPosted";
+import ClientprojectPostedDetails from "./pages/sprint_5/client-projcetPostedDetails";
+import ClientprojectPostedDetailsbidders from "./pages/sprint_5/client-projcetPostedDetailsbidders";
+
+
 function App() {
   return (
     <Router>
@@ -177,6 +183,12 @@ function App() {
         <Route path='/ServiceproviderindividualBrowseprojectHourly' exact element={<ServiceproviderindividualBrowseprojectHourly/>} />
         <Route path='/ServiceproviderindividualBrowseprojectFixedBidders' exact element={<ServiceproviderindividualBrowseprojectFixedBidders/>} />
         <Route path='/ServiceproviderindividualBrowseprojectdeatialsBidsubmitted' exact element={<ServiceproviderindividualBrowseprojectdeatialsBidsubmitted/>} />
+
+        {/* new */}
+        <Route path='/ClientprojectPosted' exact element={<ClientprojectPosted/>} />
+        <Route path='/ClientprojectPostedDetails' exact element={<ClientprojectPostedDetails/>} />
+        <Route path='/ClientprojectPostedDetailsbidders' exact element={<ClientprojectPostedDetailsbidders/>} />
+
 
       </Routes>
     </Router>

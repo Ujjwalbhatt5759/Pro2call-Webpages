@@ -206,7 +206,7 @@
 .review-providerSec h1::before {width: 110px; top: 50px;}
 .review-providerSec h3 {font-size: 12px;}
 .review-providerSec p {font-size: 12px; margin-top: 5px;}
-.review-proimg {height: 50px;}
+.review-proimg {height: 50px; width: 50px; margin: 0 auto;}
 
 .payment-checkout {right: 15px; top: 20px; height: 18px;}
 
@@ -217,7 +217,7 @@
 .page-item.active .page-link{height: 35px;}
 
 .company-box h5{font-size: 19px;}
-.services-box{padding: 0px; margin-top: 20px;}
+.services-box{padding: 0px !important; margin-top: 20px;}
 .company-box {padding: 12px 16px 10px 16px;}
 
 .client-profilehead h2 {font-size: 18px;}
@@ -230,7 +230,9 @@
 
 .green-bg {background-size: 21%;}
 .select-box {padding: 12px 8px;}
-
+.biding-rightpadding {
+    padding-right: 132px;
+}
 .mobile-secContent{padding-left: 20px; padding-top: 10px; padding-right: 20px;}
 .mobile-sec{height: 100%;}
 .mobile-secContent h1 {font-size: 20px;}
@@ -313,6 +315,19 @@
   min-height: 1.5em;
 }
 .balk-actionsection ul li {width: 100%;}
+.delivery-milestoneboxaccord {
+    padding-left: 6px;
+    
+}
+
+
+// new
+.clientproject-postedbtn {
+    left: 85px;
+    top: -7px;
+}
+.new-explorebtn {font-size: 10px; padding: 6px 15px;}
+.newnotification-numb{left: 20px;}
 
 
 

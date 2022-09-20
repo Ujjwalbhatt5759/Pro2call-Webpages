@@ -45,19 +45,7 @@ function ServiceproviderindividualAccountTimeslot() {
 
             <section class="pb-4 pb-sm-5">
                 <div class="container">
-                    {/* <div class="row pt-4 align-items-center">
-                        <div class="col-md-6 mt-2 pt-5 mt-sm-5 ">
-                            <div class="client-profilehead">
-                                <h1>june, 2022</h1>
-                                <h2>edit service slots</h2>
-                            </div>
-                        </div>
-                        <div class="col-md-6 text-right mt-2 pt-5 mt-sm-5">
-                            <button type="button" class="btn btn-login mr-3">UPDATE SERVICE SLOTS</button>
-                            <button type="button" class="btn btn-outline-primary post-btn">BACK</button>
-                        </div>
-                    </div> */}
-
+                   
                     <div class="row pt-4">
                         <div class="col-md-7 mt-2 pt-5 mt-sm-5 ">
                             <div class="client-profilehead newclient-headclender position-relative">
@@ -209,56 +197,7 @@ function ServiceproviderindividualAccountTimeslot() {
                                             </div>
                                         </div>
 
-                                        {/* <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="">
-                                                    <input class="filled-in" type="checkbox" value="" id="Check" />
-                                                    <label class="checkFrom-label" for="Check">
-                                                        No slots for all Mondays
-                                                    </label>
-                                                </div>
-                                                <div class="mt-2">
-                                                    <input class="filled-in" type="checkbox" value="" id="Chec2" />
-                                                    <label class="checkFrom-label" for="Chec2">
-                                                        No slots for all Tuesdays
-                                                    </label>
-                                                </div>
-                                                <div class="mt-2">
-                                                    <input class="filled-in" type="checkbox" value="" id="Chec3" />
-                                                    <label class="checkFrom-label" for="Chec3">
-                                                        No slots for all Wednesdays
-                                                    </label>
-                                                </div>
-                                                <div class="mt-2">
-                                                    <input class="filled-in" type="checkbox" value="" id="Chec4" />
-                                                    <label class="checkFrom-label" for="Chec4">
-                                                        No slots for all Thursdays
-                                                    </label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="">
-                                                    <input class="filled-in" type="checkbox" value="" id="Chec5" />
-                                                    <label class="checkFrom-label" for="Chec5">
-                                                        No slots for all Fridays
-                                                    </label>
-                                                </div>
-
-                                                <div class="mt-2">
-                                                    <input class="filled-in" type="checkbox" value="" id="Chec6" />
-                                                    <label class="checkFrom-label" for="Chec6">
-                                                        No slots for all <span class="new-labelbluetext">Saturdays</span>
-                                                    </label>
-                                                </div>
-
-                                                <div class="mt-2">
-                                                    <input class="filled-in" type="checkbox" value="" id="Chec7" />
-                                                    <label class="checkFrom-label" for="Chec7">
-                                                        No slots for all Sundays
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div> */}
+                                      
                                     </div>
                                 </div>
                             </div>
