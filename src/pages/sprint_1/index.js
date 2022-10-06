@@ -38,6 +38,16 @@ var clientsettings = {
 
 function Home() {
 
+    const openSearch = () => {
+        const someElement = document.getElementById("homesearch");
+        someElement.classList.add("searchboxhome");
+    };
+
+    const CloseSearch = () => {
+        const someElement = document.getElementById("homesearch");
+        someElement.classList.remove("searchboxhome");;
+    };
+
     return (
         <>
             <header>
@@ -77,13 +87,59 @@ function Home() {
                                 <div class="row align-items-center">
                                     <div class="col-md-7 col-8 pr-0 pr-sm-3">
                                         <img src="images/search.svg" class="search-icon" alt="" />
-                                        <input type="email" class="form-control search-inpt" placeholder="Search for service providers here…" />
+                                        <input onClick={openSearch} type="email" class="form-control search-inpt" placeholder="Search for service providers here…" />
                                     </div>
                                     <div class="col-md-5 text-right col-4 pr-2 pr-sm-4">
-                                        <button type="button" class="btn btn-login mr-2">SEARCH</button>
+                                        <button onClick={CloseSearch} type="button" class="btn btn-login mr-2">SEARCH</button>
                                     </div>
                                 </div>
                             </div>
+
+                            <div className="searchingBox">
+                                <div className="row">
+                                    <div className="col-md-6 pr-sm-0">
+                                        <ul className="searhinglist searchlist-scroll">
+                                            <li><Link to="/">Repairs in <span>Plumber</span></Link></li>
+                                            <li><Link to="/">Grouting in <span>Plumber</span></Link></li>
+                                            <li><Link to="/" className="active">Bathroom in <span>Plumber</span></Link></li>
+                                            <li><Link to="/">Drainage in <span>Plumber</span></Link></li>
+                                            <li><Link to="/">Toilet in <span>Plumber</span></Link></li>
+                                            <li><Link to="/">Water tank in <span>Plumber</span></Link></li>
+                                            <li><Link to="/">Motor in <span>Plumber</span></Link></li> 
+                                            <li><Link to="/">Bathroom in <span>Plumber</span></Link></li>
+                                            <li><Link to="/">Drainage in <span>Plumber</span></Link></li>
+                                            <li><Link to="/">Toilet in <span>Plumber</span></Link></li>
+                                            <li><Link to="/">Water tank in <span>Plumber</span></Link></li>
+                                            <li><Link to="/">Motor in <span>Plumber</span></Link></li> 
+                                        </ul>
+                                    </div>
+                                    <div className="col-md-6 pl-sm-0 ">
+                                        <div className="searchlocation-bg h-100">
+                                            <div className="p-2 py-sm-3 px-sm-4">
+                                                <div class="d-flex align-items-start mb-2">
+                                                    <img src="images/profileBuilder-gps.svg" width="20px" className="mr-2" alt="" />  
+                                                    <span class="profile-buildergps">Detect my current location</span>
+                                                </div>
+
+                                                <div class="form-group position-relative mb-0">
+                                                    <img src="images/search-locat.svg" class="login-smsimg" alt="" />
+                                                    <input type="email" class="form-control login-input" placeholder="Search location" />
+                                                </div> 
+                                            </div>
+
+                                            <ul className="searhinglist">
+                                                <li><Link to="/" className="active">Seattle, Washington</Link></li>
+                                                <li><Link to="/">8th Avenue, Seattle</Link></li>
+                                                <li><Link to="/">8th Avenue, Seattle</Link></li> 
+                                            </ul>
+                                        </div>
+
+                                        
+                                    </div>
+                                </div>
+                                
+                            </div>
+
 
                             <div class="row mt-2 pl-3">
                                 <div class="col-md-12">
