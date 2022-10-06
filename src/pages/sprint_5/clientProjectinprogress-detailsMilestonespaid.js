@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Accordion, Card, Button } from 'react-bootstrap';
 import { Modal } from 'react-bootstrap';
 
-function ClientProjectInprogressdetailsMilestonepaid() {
+function ClientProjectInprogressdetailsMilestonepaid () {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);

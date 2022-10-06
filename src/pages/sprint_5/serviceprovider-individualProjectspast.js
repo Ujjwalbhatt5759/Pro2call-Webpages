@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Modal, Button } from 'react-bootstrap';
 import { Navbar, Nav } from 'react-bootstrap';
 
-function ServiceproviderindividualProjectpast() {
+function ServiceproviderindividualProjectpast () {
 
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);

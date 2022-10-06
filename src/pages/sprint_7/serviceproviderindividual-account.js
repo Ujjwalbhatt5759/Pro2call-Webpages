@@ -62,7 +62,7 @@ function ServiceproviderindividualAccount () {
                 </div>
             </Navbar>
 
-            <section class="client-section   position-relative">
+            <section class="client-section   position-relative account-sectionbg">
 
                 <div class="login-img d-none d-md-block">
                     <div class="container-fluid h-100">

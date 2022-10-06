@@ -6,7 +6,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 import MultiRangeSlider from "multi-range-slider-react";
 
 
-function ClientprojectPosted() {
+function ClientprojectPosted () {
 
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
@@ -113,7 +113,7 @@ function ClientprojectPosted() {
                                     <div class="col-md-7">
                                         <div class="service-publicSec">
                                             <div class="row">
-                                                <div class="col-md-9 mb-2 mb-sm-0 d-flex justify-content-between">
+                                                <div class="col-md-6 mb-2 mb-sm-0 d-flex justify-content-between">
                                                     <div class="text-sm-right text-center">
                                                         <h4>Your budget</h4>
                                                         <h5>$0.00</h5>
@@ -126,7 +126,9 @@ function ClientprojectPosted() {
                                                         <h4>Total bids</h4>
                                                         <h5>0</h5>
                                                     </div>
-                                                    <div class="text-sm-right text-center">
+                                                </div>
+                                                <div class="col-md-3 mb-2 pr-0 col-8 mb-sm-0 d-flex justify-content-between">
+                                                <div class="text-sm-right text-center">
                                                         <h4>Shortlisted</h4>
                                                         <h5>0</h5>
                                                     </div>
@@ -134,9 +136,10 @@ function ClientprojectPosted() {
                                                         <h4>Days left</h4>
                                                         <h5>0</h5>
                                                     </div>
-
                                                 </div>
-                                                <div class="col-md-3 text-left text-sm-right">
+
+
+                                                <div class="col-md-3 col-4 text-left text-sm-right">
                                                     <button class="uploadBtn ">POSTED</button>
                                                 </div>
                                             </div>
@@ -165,10 +168,10 @@ function ClientprojectPosted() {
                                     <div class="col-md-7">
                                         <div class="service-publicSec service-publicpink">
                                             <div class="row">
-                                                <div class="col-md-9 mb-2 mb-sm-0 d-flex justify-content-between">
+                                            <div class="col-md-6 mb-2 mb-sm-0 d-flex justify-content-between">
                                                     <div class="text-sm-right text-center">
                                                         <h4>Your budget</h4>
-                                                        <h5>$20 - $40 / hr</h5>
+                                                        <h5>$0.00</h5>
                                                     </div>
                                                     <div class="text-sm-right text-center">
                                                         <h4>Avg. bid</h4>
@@ -176,19 +179,20 @@ function ClientprojectPosted() {
                                                     </div>
                                                     <div class="text-sm-right text-center">
                                                         <h4>Total bids</h4>
-                                                        <h5>10</h5>
+                                                        <h5>0</h5>
                                                     </div>
-                                                    <div class="text-sm-right text-center">
+                                                </div>
+                                                <div class="col-md-3 mb-2 pr-0 col-7 mb-sm-0 d-flex justify-content-between">
+                                                <div class="text-sm-right text-center">
                                                         <h4>Shortlisted</h4>
-                                                        <h5>2</h5>
+                                                        <h5>0</h5>
                                                     </div>
                                                     <div class="text-sm-right text-center">
                                                         <h4>Days left</h4>
-                                                        <h5>9</h5>
+                                                        <h5>0</h5>
                                                     </div>
-
                                                 </div>
-                                                <div class="col-md-3 text-left text-sm-right">
+                                                <div class="col-md-3 col-5 text-left text-sm-right">
                                                     <button class="btn btn-login new-loginbtn text-uppercase">VIEW DETAILS</button>
                                                 </div>
                                             </div>
@@ -217,10 +221,10 @@ function ClientprojectPosted() {
                                     <div class="col-md-7">
                                         <div class="service-publicSec">
                                             <div class="row">
-                                                <div class="col-md-9 mb-2 mb-sm-0 d-flex justify-content-between">
+                                            <div class="col-md-6 mb-2 mb-sm-0 d-flex justify-content-between">
                                                     <div class="text-sm-right text-center">
                                                         <h4>Your budget</h4>
-                                                        <h5>$300 - $500</h5>
+                                                        <h5>$0.00</h5>
                                                     </div>
                                                     <div class="text-sm-right text-center">
                                                         <h4>Avg. bid</h4>
@@ -230,17 +234,18 @@ function ClientprojectPosted() {
                                                         <h4>Total bids</h4>
                                                         <h5>0</h5>
                                                     </div>
-                                                    <div class="text-sm-right text-center">
+                                                </div>
+                                                <div class="col-md-3 mb-2 pr-0 col-7 mb-sm-0 d-flex justify-content-between">
+                                                <div class="text-sm-right text-center">
                                                         <h4>Shortlisted</h4>
-                                                        <h5>2</h5>
+                                                        <h5>0</h5>
                                                     </div>
                                                     <div class="text-sm-right text-center">
                                                         <h4>Days left</h4>
-                                                        <h5>15</h5>
+                                                        <h5>0</h5>
                                                     </div>
-
                                                 </div>
-                                                <div class="col-md-3 text-left text-sm-right">
+                                                <div class="col-md-3 text-left col-5 text-sm-right">
                                                     <button class="btn btn-login new-loginbtn text-uppercase">VIEW DETAILS</button>
                                                 </div>
                                             </div>
@@ -269,10 +274,10 @@ function ClientprojectPosted() {
                                     <div class="col-md-7">
                                         <div class="service-publicSec">
                                             <div class="row">
-                                                <div class="col-md-9 mb-2 mb-sm-0 d-flex justify-content-between">
+                                            <div class="col-md-6 mb-2 mb-sm-0 d-flex justify-content-between">
                                                     <div class="text-sm-right text-center">
                                                         <h4>Your budget</h4>
-                                                        <h5>$300 - $500</h5>
+                                                        <h5>$0.00</h5>
                                                     </div>
                                                     <div class="text-sm-right text-center">
                                                         <h4>Avg. bid</h4>
@@ -280,19 +285,20 @@ function ClientprojectPosted() {
                                                     </div>
                                                     <div class="text-sm-right text-center">
                                                         <h4>Total bids</h4>
-                                                        <h5>10</h5>
+                                                        <h5>0</h5>
                                                     </div>
-                                                    <div class="text-sm-right text-center">
+                                                </div>
+                                                <div class="col-md-3 mb-2 pr-0 col-7 mb-sm-0 d-flex justify-content-between">
+                                                <div class="text-sm-right text-center">
                                                         <h4>Shortlisted</h4>
-                                                        <h5>2</h5>
+                                                        <h5>0</h5>
                                                     </div>
                                                     <div class="text-sm-right text-center">
                                                         <h4>Days left</h4>
-                                                        <h5>9</h5>
+                                                        <h5>0</h5>
                                                     </div>
-
                                                 </div>
-                                                <div class="col-md-3 text-left text-sm-right">
+                                                <div class="col-md-3 col-5 text-left text-sm-right">
                                                     <button class="btn btn-login new-loginbtn text-uppercase">VIEW DETAILS</button>
                                                 </div>
                                             </div>
@@ -321,10 +327,10 @@ function ClientprojectPosted() {
                                     <div class="col-md-7">
                                         <div class="service-publicSec">
                                             <div class="row">
-                                                <div class="col-md-9 mb-2 mb-sm-0 d-flex justify-content-between">
+                                            <div class="col-md-6 mb-2 mb-sm-0 d-flex justify-content-between">
                                                     <div class="text-sm-right text-center">
                                                         <h4>Your budget</h4>
-                                                        <h5>$300 - $500</h5>
+                                                        <h5>$0.00</h5>
                                                     </div>
                                                     <div class="text-sm-right text-center">
                                                         <h4>Avg. bid</h4>
@@ -332,19 +338,20 @@ function ClientprojectPosted() {
                                                     </div>
                                                     <div class="text-sm-right text-center">
                                                         <h4>Total bids</h4>
-                                                        <h5>10</h5>
+                                                        <h5>0</h5>
                                                     </div>
-                                                    <div class="text-sm-right text-center">
+                                                </div>
+                                                <div class="col-md-3 mb-2 pr-0 col-7 mb-sm-0 d-flex justify-content-between">
+                                                <div class="text-sm-right text-center">
                                                         <h4>Shortlisted</h4>
-                                                        <h5>2</h5>
+                                                        <h5>0</h5>
                                                     </div>
                                                     <div class="text-sm-right text-center">
                                                         <h4>Days left</h4>
-                                                        <h5>9</h5>
+                                                        <h5>0</h5>
                                                     </div>
-
                                                 </div>
-                                                <div class="col-md-3 text-left text-sm-right">
+                                                <div class="col-md-3 col-5 text-left text-sm-right">
                                                     <button class="btn btn-login new-loginbtn text-uppercase">VIEW DETAILS</button>
                                                 </div>
                                             </div>

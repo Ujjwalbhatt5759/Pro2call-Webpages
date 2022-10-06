@@ -79,14 +79,14 @@ function ClientProjectInprogress() {
                                             <p>HOURLY</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-8 col-10">
+                                    <div class="col-md-8 col-8">
                                         <div class="service-item pl-0 pl-sm-3">
                                             <p>#PT0000129899 <span class="service-itemdraft serviceitemyfixed">Fixed</span></p>
                                             <h6>Dolor ut ab sit. Ut vero maiores autem culpa corrupti reiciendis …</h6>
                                         </div>
                                     </div>
-                                    <div class="col-md-3 text-right d-none d-sm-block">
-                                        <h2 class="chat-textred"><img src="images/chat-imgscheduled.svg" alt="" height="40px" /><span class="notification-numb">2</span></h2>
+                                    <div class="col-md-3 text-right col-2 pl-0 pl-sm-3">
+                                        <h2 class="chat-textred client-inprogresschatimg"><img src="images/chat-imgscheduled.svg" alt="" height="40px"  /><span class="notification-numb">2</span></h2>
                                     </div>
                                 </div>
                             </div>
@@ -127,14 +127,14 @@ function ClientProjectInprogress() {
                                             <p>FIXED</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-8 col-10">
+                                    <div class="col-md-8 col-8">
                                         <div class="service-item pl-0 pl-sm-3">
                                             <p>#PT0000129899 <span class="service-itemdraft serviceitemyfixed">Fixed</span></p>
                                             <h6>Drainage pipe blockage removal</h6>
                                         </div>
                                     </div>
-                                    <div class="col-md-3 text-right d-none d-sm-block">
-                                        <h2 class="chat-textred"><img src="images/chat-imgscheduled.svg" alt="" height="40px" /><span class="notification-numb">2</span></h2>
+                                    <div class="col-md-3 text-right col-2 pl-0 pl-sm-3">
+                                        <h2 class="chat-textred client-inprogresschatimg"><img src="images/chat-imgscheduled.svg" alt="" height="40px"  /><span class="notification-numb">2</span></h2>
                                     </div>
                                 </div>
 
@@ -176,14 +176,14 @@ function ClientProjectInprogress() {
                                             <p>HOURLY</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-8 col-10">
+                                    <div class="col-md-8 col-8">
                                         <div class="service-item pl-0 pl-sm-3">
                                             <p>#PT0000129899 <span class="service-itemdraft serviceitemyfixed">Fixed</span></p>
                                             <h6>Dolor ut ab sit. Ut vero maiores autem culpa corrupti reiciendis …</h6>
                                         </div>
                                     </div>
-                                    <div class="col-md-3 text-right d-none d-sm-block">
-                                        <h2 class="chat-textred"><img src="images/chat-imgscheduled.svg" alt="" height="40px" /></h2>
+                                    <div class="col-md-3 text-right col-2 pl-0 pl-sm-3">
+                                        <h2 class="chat-textred client-inprogresschatimg"><img src="images/chat-imgscheduled.svg" alt="" height="40px"  /></h2>
                                     </div>
                                 </div>
                             </div>

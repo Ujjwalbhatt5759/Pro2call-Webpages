@@ -112,7 +112,7 @@ function ServiceproviderindividualProjectopen() {
                                             <p>HOURLY</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-8 col-10">
+                                    <div class="col-md-8 col-8">
                                         <div class="service-item service-itemnew pl-0 pl-sm-3">
                                             <p>
                                                 <span class="service-itemdraft serviceitemyfixed service-individualcompany"><img src="images/verify.png" class="mr-1 mb-1" alt="" />COMPANY</span>
@@ -121,9 +121,9 @@ function ServiceproviderindividualProjectopen() {
                                             <h6>WC hardware installation for 3 bathrooms</h6>
                                         </div>
                                     </div>
-                                    <div class="col-md-3 text-right d-none d-sm-block">
-                                        <h2 class="chat-textred"><img src="images/chat-imgscheduled.svg" alt="" height="40px" /><span class="notification-numb">2</span></h2>
-                                    </div>
+                                    <div class="col-md-3 text-right col-2 pl-0 pl-sm-3">
+                                                <h2 class="chat-textred client-inprogresschatimg"><img src="images/chat-imgscheduled.svg" alt="" height="40px" /><span class="notification-numb">2</span></h2>
+                                            </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -163,7 +163,7 @@ function ServiceproviderindividualProjectopen() {
                                             <p>FIXED</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-8 col-10">
+                                    <div class="col-md-8 col-8">
                                         <div class="service-item service-itemnew pl-0 pl-sm-3">
                                             <p>
                                                 <span class="service-itemdraft serviceitemyindividual service-individualcompany"><img src="images/gray-verify.svg" class="mr-1 mb-1" alt="" />INDIVIDUAL</span>
@@ -172,9 +172,9 @@ function ServiceproviderindividualProjectopen() {
                                             <h6>Full bathroom hardware installation for corporate office</h6>
                                         </div>
                                     </div>
-                                    <div class="col-md-3 text-right d-none d-sm-block">
-                                        <h2 class="chat-textred"><img src="images/chat-imgscheduled.svg" alt="" height="40px" /><span class="notification-numb">2</span></h2>
-                                    </div>
+                                    <div class="col-md-3 text-right col-2 pl-0 pl-sm-3">
+                                                <h2 class="chat-textred client-inprogresschatimg"><img src="images/chat-imgscheduled.svg" alt="" height="40px" /><span class="notification-numb">2</span></h2>
+                                            </div>
                                 </div>
 
                             </div>
@@ -215,7 +215,7 @@ function ServiceproviderindividualProjectopen() {
                                             <p>HOURLY</p>
                                         </div>
                                     </div>
-                                    <div class="col-md-8 col-10">
+                                    <div class="col-md-8 col-8">
                                         <div class="service-item service-itemnew pl-0 pl-sm-3">
                                             <p>
                                                 <span class="service-itemdraft serviceitemyfixed service-individualcompany"><img src="images/verify.png" class="mr-1 mb-1" alt="" />COMPANY</span>
@@ -224,9 +224,9 @@ function ServiceproviderindividualProjectopen() {
                                             <h6>WC hardware installation for 3 bathrooms</h6>
                                         </div>
                                     </div>
-                                    <div class="col-md-3 text-right d-none d-sm-block">
-                                        <h2 class="chat-textred"><img src="images/chat-imgscheduled.svg" alt="" height="40px" /><span class="notification-numb">2</span></h2>
-                                    </div>
+                                    <div class="col-md-3 text-right col-2 pl-0 pl-sm-3">
+                                                <h2 class="chat-textred client-inprogresschatimg"><img src="images/chat-imgscheduled.svg" alt="" height="40px" /><span class="notification-numb">2</span></h2>
+                                            </div>
                                 </div>
                             </div>
                             <div class="col-md-6">

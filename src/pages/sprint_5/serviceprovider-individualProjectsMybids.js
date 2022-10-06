@@ -130,7 +130,7 @@ function ServiceproviderindividualProjectMybids () {
                                                     <p>HOURLY</p>
                                                 </div>
                                             </div>
-                                            <div class="col-md-8 pl-2 pl-sm-4 col-10">
+                                            <div class="col-md-8 pl-2 pl-sm-4 col-8">
                                                 <div class="service-item service-itemnew">
                                                     <p>
                                                         <span class="service-itemdraft serviceitemyfixed service-individualcompany"><img src="images/verify.png" class="mr-1 mb-1" alt="" />COMPANY</span>
@@ -139,8 +139,8 @@ function ServiceproviderindividualProjectMybids () {
                                                     <h6>WC hardware installation for 3 bathrooms</h6>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3 text-right d-none d-sm-block">
-                                                <h2 class="chat-textred"><img src="images/chat-imgscheduled.svg" alt="" height="40px" /><span class="notification-numb">2</span></h2>
+                                            <div class="col-md-3 text-right col-2 pl-0 pl-sm-3">
+                                                <h2 class="chat-textred client-inprogresschatimg"><img src="images/chat-imgscheduled.svg" alt="" height="40px" /><span class="notification-numb">2</span></h2>
                                             </div>
                                         </div>
                                     </div>
@@ -183,7 +183,7 @@ function ServiceproviderindividualProjectMybids () {
                                                     <p>FIXED</p>
                                                 </div>
                                             </div>
-                                            <div class="col-md-8 pl-2 pl-sm-4 col-10">
+                                            <div class="col-md-8 pl-2 pl-sm-4 col-8">
                                                 <div class="service-item service-itemnew">
                                                     <p>
                                                         <span class="service-itemdraft serviceitemyindividual service-individualcompany"><img src="images/gray-verify.svg" class="mr-1 mb-1" alt="" />INDIVIDUAL</span>
@@ -192,8 +192,8 @@ function ServiceproviderindividualProjectMybids () {
                                                     <h6>Full bathroom hardware installation for corporate office</h6>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3 text-right d-none d-sm-block">
-                                                <h2 class="chat-textred"><img src="images/chat-imgscheduled.svg" alt="" height="40px" /><span class="notification-numb">2</span></h2>
+                                            <div class="col-md-3 text-right col-2 pl-0 pl-sm-3">
+                                                <h2 class="chat-textred client-inprogresschatimg"><img src="images/chat-imgscheduled.svg" alt="" height="40px" /><span class="notification-numb">2</span></h2>
                                             </div>
                                         </div>
                                     </div>
@@ -236,7 +236,7 @@ function ServiceproviderindividualProjectMybids () {
                                                     <p>HOURLY</p>
                                                 </div>
                                             </div>
-                                            <div class="col-md-8 pl-2 pl-sm-4 col-10">
+                                            <div class="col-md-8 pl-2 pl-sm-4 col-8">
                                                 <div class="service-item service-itemnew">
                                                     <p>
                                                         <span class="service-itemdraft serviceitemyfixed service-individualcompany"><img src="images/verify.png" class="mr-1 mb-1" alt="" />COMPANY</span>
@@ -245,8 +245,62 @@ function ServiceproviderindividualProjectMybids () {
                                                     <h6>WC hardware installation for 3 bathrooms</h6>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3 text-right d-none d-sm-block">
-                                                <h2 class="chat-textred"><img src="images/light-chat.svg" alt="" height="40px" /></h2>
+                                            <div class="col-md-3 text-right col-2 pl-0 pl-sm-3">
+                                                <h2 class="chat-textred client-inprogresschatimg"><img src="images/light-chat.svg" alt="" height="40px" /></h2>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="service-publicSec service-publicpink">
+                                            <div class="row">
+                                                <div class="col-md-8 mb-2 mb-sm-0 d-flex justify-content-between">
+                                                    <div class="text-sm-right text-center">
+                                                        <h4>Your bid</h4>
+                                                        <h5>$20.00 / hr</h5>
+                                                    </div>
+                                                    <div class="text-sm-right text-center">
+                                                        <h4>Avg. bid</h4>
+                                                        <h5>12th Jun 2022</h5>
+                                                    </div>
+                                                    <div class="text-sm-right text-center">
+                                                        <h4>Bids</h4>
+                                                        <h5>10</h5>
+                                                    </div>
+                                                    <div class="text-sm-right text-center">
+                                                        <h4>Days left</h4>
+                                                        <h5><span class="padding-redtext">9 days</span></h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 text-left text-sm-right">
+                                                    <button class="btn btn-login new-loginbtn text-uppercase">VIEW DETAILS</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="service-list mt-3">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6 mb-2 mb-sm-0 mt-2 mt-sm-0">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-1 col-2">
+                                                <div class="service-individual-browsetext service-individual-browsetextyellow">
+                                                    <p>HOURLY</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8 pl-2 pl-sm-4 col-8">
+                                                <div class="service-item service-itemnew">
+                                                    <p>
+                                                        <span class="service-itemdraft serviceitemyfixed service-individualcompany"><img src="images/verify.png" class="mr-1 mb-1" alt="" />COMPANY</span>
+                                                        <img src="images/Iconly-Bold-Star.svg" class="mb-2 ml-3" alt="" height="15px" /> <span class="gorden-ratetext"> 4.7 </span> (147 reviews)
+                                                    </p>
+                                                    <h6>WC hardware installation for 3 bathrooms</h6>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 text-right col-2 pl-0 pl-sm-3">
+                                                <h2 class="chat-textred client-inprogresschatimg"><img src="images/light-chat.svg" alt="" height="40px" /></h2>
                                             </div>
                                         </div>
                                     </div>
@@ -289,7 +343,7 @@ function ServiceproviderindividualProjectMybids () {
                                                     <p>HOURLY</p>
                                                 </div>
                                             </div>
-                                            <div class="col-md-8 pl-2 pl-sm-4 col-10">
+                                            <div class="col-md-8 pl-2 pl-sm-4 col-8">
                                                 <div class="service-item service-itemnew">
                                                     <p>
                                                         <span class="service-itemdraft serviceitemyfixed service-individualcompany"><img src="images/verify.png" class="mr-1 mb-1" alt="" />COMPANY</span>
@@ -298,61 +352,8 @@ function ServiceproviderindividualProjectMybids () {
                                                     <h6>WC hardware installation for 3 bathrooms</h6>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3 text-right d-none d-sm-block">
-                                                <h2 class="chat-textred"><img src="images/light-chat.svg" alt="" height="40px" /></h2>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="service-publicSec service-publicpink">
-                                            <div class="row">
-                                                <div class="col-md-8 mb-2 mb-sm-0 d-flex justify-content-between">
-                                                    <div class="text-sm-right text-center">
-                                                        <h4>Your bid</h4>
-                                                        <h5>$20.00 / hr</h5>
-                                                    </div>
-                                                    <div class="text-sm-right text-center">
-                                                        <h4>Avg. bid</h4>
-                                                        <h5>12th Jun 2022</h5>
-                                                    </div>
-                                                    <div class="text-sm-right text-center">
-                                                        <h4>Bids</h4>
-                                                        <h5>10</h5>
-                                                    </div>
-                                                    <div class="text-sm-right text-center">
-                                                        <h4>Days left</h4>
-                                                        <h5><span class="padding-redtext">9 days</span></h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4 text-left text-sm-right">
-                                                    <button class="btn btn-login new-loginbtn text-uppercase">VIEW DETAILS</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="service-list mt-3">
-                                <div class="row align-items-center">
-                                    <div class="col-md-6 mb-2 mb-sm-0 mt-2 mt-sm-0">
-                                        <div class="row align-items-center">
-                                            <div class="col-md-1 col-2">
-                                                <div class="service-individual-browsetext service-individual-browsetextyellow">
-                                                    <p>HOURLY</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-8 pl-2 pl-sm-4 col-10">
-                                                <div class="service-item service-itemnew">
-                                                    <p>
-                                                        <span class="service-itemdraft serviceitemyfixed service-individualcompany"><img src="images/verify.png" class="mr-1 mb-1" alt="" />COMPANY</span>
-                                                        <img src="images/Iconly-Bold-Star.svg" class="mb-2 ml-3" alt="" height="15px" /> <span class="gorden-ratetext"> 4.7 </span> (147 reviews)
-                                                    </p>
-                                                    <h6>WC hardware installation for 3 bathrooms</h6>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3 text-right d-none d-sm-block">
-                                                <h2 class="chat-textred"><img src="images/light-chat.svg" alt="" height="40px" /></h2>
+                                            <div class="col-md-3 text-right col-2 pl-0 pl-sm-3">
+                                                <h2 class="chat-textred client-inprogresschatimg"><img src="images/light-chat.svg" alt="" height="40px" /></h2>
                                             </div>
                                         </div>
                                     </div>
