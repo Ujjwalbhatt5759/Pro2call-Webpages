@@ -1,24 +1,13 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import { Modal, Button } from 'react-bootstrap';
-import Form from 'react-bootstrap/Form';
 import { Navbar, Nav } from 'react-bootstrap';
-import MultiRangeSlider from "multi-range-slider-react";
 
-
-
-function ServiceproviderindividualBrowse () {
+function Serviceproviderindividualsaved () {
 
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-
-    const [minValue, set_minValue] = useState(25);
-    const [maxValue, set_maxValue] = useState(75);
-    const handleInput = (e) => {
-        set_minValue(e.minValue);
-        set_maxValue(e.maxValue);
-    };
 
     return (
         <>
@@ -28,13 +17,13 @@ function ServiceproviderindividualBrowse () {
                         <div class="row align-items-center">
                             <div class="col-md-5 col-5 moblogo">
                                 <a href="#"><img src="images/Logo.svg" alt="" /></a>
-                                <button type="button" class="btn btn-login ml-4 d-none d-sm-inline-block">WANT TO HIRE SOMEONE ?</button>
+                                
                             </div>
                             <div class="col-md-7 col-7">
                                 <ul class="tophead-right">
                                     <li class="client-loginHead d-none d-sm-block">
                                         <a href="#">
-                                            <img src="images/service-prohead-img.png" class="pro-headimg" alt="" />You are logged in as a <span>SERVICE PROVIDER</span>
+                                            <img src="images/service-prohead-img.png" class="pro-headimg" alt="" />You are logged in as a <span>SERVICE PROVIDER </span>
                                         </a>
                                     </li>
                                     <li class="user-picHead">
@@ -54,97 +43,35 @@ function ServiceproviderindividualBrowse () {
                     </div>
                 </div>
             </header>
-            
+
             <Navbar expand="lg" class="listed-bar">
                 <div class="container">
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Link href="#" className="active"><img src="images/blue-status.svg" alt="" />BROWSE</Nav.Link>
+                            <Nav.Link href="#"><img src="images/status.svg" alt="" />BROWSE</Nav.Link>
                             <Nav.Link href="#"><img src="images/note.svg" alt="" />PROJECTS</Nav.Link>
-                            <Nav.Link href="#"><img src="images/bold-cal.svg" alt="" />SERVICES</Nav.Link>
-                            <Nav.Link href="#"><img src="images/dollar.svg" alt="" />EARNINGS</Nav.Link>
+                            <Nav.Link href="#"><img src="images/bold-cal.svg" alt="" />BOOKINGS</Nav.Link>
+                            <Nav.Link href="#"><img src="images/dollar.svg" alt="" />EXPENSE</Nav.Link>
                             <Nav.Link href="#"><img src="images/mgs.svg" alt="" />SUPPORT</Nav.Link>
                             <Nav.Link href="#"><img src="images/setting.svg" alt="" />ACCOUNT</Nav.Link>
-                            <Nav.Link href="#"><img src="images/archive.svg" alt="" />SAVED</Nav.Link>
+                            <Nav.Link href="#" className="active" ><img src="images/bold-archive.svg" alt="" />SAVED</Nav.Link>
                             <Nav.Link href="#"><img src="images/trend.svg" alt="" />REPORTS</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </div>
             </Navbar>
 
-            <section>
-                <div class="container">
-                    <div class="row pt-2 pt-sm-3 align-items-center">
-                        <div class="col-md-5 mb-2 mb-sm-0">
-                            <div class="top-banner-searchbar browse-searchbar  position-relative">
-                                <div class="row align-items-center">
-                                    <div class="col-md-8 col-8 pr-0 pr-sm-3">
-                                        <img src="images/search.svg" class="search-icon" alt="" />
-                                        <input type="email" class="form-control search-inpt" placeholder="Hardware installation in Plumber" />
-                                    </div>
-                                    <div class="col-md-4 text-right col-4 pr-2 pr-sm-4">
-                                        <button type="button" class="btn btn-login mr-2">SEARCH</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 mb-2 mb-sm-0">
-                            <h4 class="words-text">Set proximity radius</h4>
-                            <div class="mt-2">
-                                <Form.Label></Form.Label><Form.Range className="range-scrollmember" />
-                            </div>
+          
 
-                            <h4 class="words-text text-center">25mi.</h4>
-                        </div>
-                        <div class="col-md-4 found-section">
-                            <div class="row align-items-center">
-                                <div class="col-md-5 mb-2 mb-sm-0">
-                                    <h6 onClick={handleShow} ><img src="images/filter.svg" alt="" height="27px" /> Filter results</h6>
-                                </div>
-                                <div class="col-md-7 pl-3 pl-sm-0">
-                                    <div class="filter-box sprint4filetrbox">
-                                        <div class=" d-flex align-items-center">
-                                            <img src="images/arrow.svg" alt="" height="22px" />
-                                            <select class="form-control form-select" aria-label=".form-select-lg example">
-                                                <option value="3">Sort listing</option>
-                                                <option>Newest listing first</option>
-                                                <option>Lowest budget</option>
-                                                <option>Highest budget</option>
-                                                <option>Oldest listing first</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <section class="pt-3 found-section">
-                <div class="container">
-                    <div class="found-box">
-                        <div class="row align-items-center">
-                            <div class="col-md-12 col-12">
-                                <div class="client-profilehead">
-                                    <h1>found <span>297 results</span> in hardware installation</h1>
-                                    <h2>plumber in “Seattle, Washington (25mi. radius)”</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                  
-                </div>
-            </section>
 
             <section class="pb-4 pb-sm-5">
                 <div class="container">
-                <div class="row mt-2">
+                    <div class="row mt-2">
+                       
                         <div class="col-md-12">
 
-                            <div className="service-list mt-2">
+                        <div className="service-list mt-3">
                                 <div class="row align-items-center">
                                     <div class="col-md-6 mb-2 mb-sm-0 mt-2 mt-sm-0">
                                         <div class="row align-items-center">
@@ -392,7 +319,7 @@ function ServiceproviderindividualBrowse () {
                                     </div>
                                 </div>
                             </div>
-
+                            
                         </div>
                     </div>
                 </div>
@@ -400,137 +327,86 @@ function ServiceproviderindividualBrowse () {
 
 
             {/*  */}
-            <Modal show={show} onHide={handleClose} className="filter-popup modal-dialog-slideout">
+
+           <Modal show={show} onHide={handleClose} className="filter-popup2 modal-dialog-slideout">
                 <Modal.Header closeButton>
                     <Modal.Title>
+                      <div class="row align-items-end">
+                        <div claSS="col-md-7 pr-0">
                         <div class="service-head">
                             <img src="images/popup-logo.svg" height="45px" alt="" />
-                            <h1>filter <span>results</span></h1>
+                            <h1>chat with <span>support</span></h1>
                         </div>
+                        </div> 
+                        <div claSS="col-md-5">
+                        <button class="btn btn-login new-loginbtnpop text-uppercase">VIEW PROJECT DETAILS</button>
+                        </div>
+                      </div>
+                       
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <label for="#" class="profile-label mt-1">Budget</label>
-                    <div class="form-group">
-                        <input class="filled-in" type="checkbox" value="" id="Check" />
-                        <label class="checkFrom-label" for="Check">
-                            Fixed price
-                        </label>
+                    <div class="row mt-3 mt-sm-5 justify-content-end">
+                        <div class="col-md-7">
+                            <div class="arrow_box">
+                                <p>Dolor ut ab sit. Ut vero maiores autem culpa corrupti reiciendis aspernatur. Sint blanditiis</p>
+                            </div>
+                            <p class="caht-timming">9:00 AM</p>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-7">
+                            <div class="row text-right">
+                                <div class="col-md-12">
+                                    <button type="button" class="btn chat-boxbtn ">Oct 2nd, 2021</button>
+                                </div>
+                            </div>
+                            <div class="arrow_box arrow_boxblue mt-2">
+                                <p>Dolor ut ab sit. Ut vero maiores autem culpa corrupti reiciendis aspernatur. Sint blanditiis</p>
+                            </div>
+                            <div class="row text-right mt-3">
+                                <div class="col-md-12">
+                                    <button type="button" class="btn chat-boxbtn mr-3">Today</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row mt-3 justify-content-end">
+                        <div class="col-md-7">
+                            <div class="arrow_box">
+                                <p>Dolor ut ab sit. Ut vero maiores autem culpa corrupti reiciendis aspernatur. Sint blanditiis</p>
+                            </div>
+                            <p class="caht-timming">9:00 AM</p>
+                        </div>
                     </div>
 
-                    <div class="row">
+                    <div class="row align-items-center mt-3">
+                        <div class="col-md-1 col-1">
+                            <div class="typing-boximg">
+                                <img src="images/typing-text.svg" alt="" />
+                            </div>
+                        </div>
+                        <div class="col-md-10 col-10">
+                            <p class="typing-textcolor ml-3">Protocall support is typing</p>
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
                         <div class="col-md-12">
-                            <div className="App">
-                                <MultiRangeSlider
-                                    min={0}
-                                    max={100}
-                                    step={5}
-                                    ruler={true}
-                                    label={true}
-                                    preventWheel={false}
-                                    minValue={minValue}
-                                    maxValue={maxValue}
-                                    onInput={(e) => {
-                                        handleInput(e);
-                                    }}
-                                />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="form-group mt-3 mb-3 mb-sm-0">
-                        <input class="filled-in" type="checkbox" value="" id="Check1" />
-                        <label class="checkFrom-label" for="Check1">
-                            Hourly
-                        </label>
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="col-md-6">
-                            <div className="App">
-                                <MultiRangeSlider
-                                    min={0}
-                                    max={100}
-                                    step={5}
-                                    ruler={true}
-                                    label={true}
-                                    preventWheel={false}
-                                    minValue={minValue}
-                                    maxValue={maxValue}
-                                    onInput={(e) => {
-                                        handleInput(e);
-                                    }}
-                                />
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="select-box form-group">
-                                <select className="form-control select-checkout">
-                                    <option value="3">All durations</option>
-                                    <option>Newest listing first</option>
-                                    <option>Lowest budget</option>
-                                    <option>Highest budget</option>
-                                    <option>Oldest listing first</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="border-bottom"></div>
-                    <label for="#" class="profile-label mt-2">Type</label>
-                    <div class="row">
-                        <div class="col-md-3 col-4">
                             <div class="form-group">
-                                <input class="filled-in" type="checkbox" value="" id="Check2" />
-                                <label class="checkFrom-label" for="Check2">
-                                    Individual
-                                </label>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-4">
-                            <div class="form-group">
-                                <input class="filled-in" type="checkbox" value="" id="Check3" />
-                                <label class="checkFrom-label" for="Check3">
-                                    Company
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="border-bottom"></div>
-                    <label for="#" class="profile-label mt-2">Rating</label>
-                    <div class="row">
-                        <div class="col-md-4 col-4 col-6">
-                            <div class="form-group">
-                                <input class="filled-in" type="checkbox" value="" id="Check4" />
-                                <label class="checkFrom-label" for="Check4">
-                                    4 - 5 Stars
-                                </label>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-4 col-6 ">
-                            <div class="form-group">
-                                <input class="filled-in" type="checkbox" value="" id="Check5" />
-                                <label class="checkFrom-label" for="Check5">
-                                    3 - 4 stars
-                                </label>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-6">
-                            <div class="form-group">
-                                <input class="filled-in" type="checkbox" value="" id="Check6" />
-                                <label class="checkFrom-label" for="Check6">
-                                    2 - 3 stars
-                                </label>
+                                <input type="email" class="form-control typing-int" placeholder="type a message here…" />
+                                <button type="button" class="btn send-btn"><img src="images/send.svg" alt="" height="25px" /></button>
                             </div>
                         </div>
                     </div>
 
                 </Modal.Body>
-                <Modal.Footer>
-                    <button type="button" class="btn btn-login">Apply filters</button>
-                    <button type="button" class="btn btn-outline-danger remove-btnoutline">Remove filters</button>
-                    {/* <Button variant="secondary" onClick={handleClose}>Close</Button> */}
-                    {/* <Button variant="primary" onClick={handleClose}>Save Changes</Button> */}
-                </Modal.Footer>
+                {/* <Modal.Footer>
+                    <button type="button" class="btn btn-outline-primary post-btn mr-2">BACK</button>
+                    <button type="button" class="btn btn-login">PROCEED TO PAYMENT</button>
+                   
+                </Modal.Footer> */}
             </Modal>
 
 
@@ -538,4 +414,4 @@ function ServiceproviderindividualBrowse () {
     );
 }
 
-export default ServiceproviderindividualBrowse;
+export default  Serviceproviderindividualsaved;

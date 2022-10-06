@@ -45,7 +45,6 @@ import ClientbrowseDetailsservices from "./pages/sprint_2/client-browseDetails(s
 import ClientbrowsecheckoutConfirmed from "./pages/sprint_2/client-browseCheckoutconfirmed";
 import ProjectdeatilPayment from "./pages/sprint_2/projectdetail-payment";
 import ProjectdeatilPaymentconfirmed from "./pages/sprint_2/projectdetail-paymentconfirmed";
-
 import ServiceproviderindividualAccountTimeslot from "./pages/sprint_2/serviceprovider-individualAccountTimeslot";
 
 //sprint_3
@@ -84,10 +83,64 @@ import ServiceproviderindividualBrowseprojectFixedBidders from "./pages/sprint_4
 import ServiceproviderindividualBrowseprojectdeatialsBidsubmitted from "./pages/sprint_4/serviceprovider-individual-BrowseprojectdetailsBidsubmitted";
 
 
-// new
+// sprint 5
 import ClientprojectPosted from "./pages/sprint_5/client-projectPosted";
 import ClientprojectPostedDetails from "./pages/sprint_5/client-projcetPostedDetails";
 import ClientprojectPostedDetailsbidders from "./pages/sprint_5/client-projcetPostedDetailsbidders";
+import ClientprojectPostedDetailsInvitebidders from "./pages/sprint_5/client-projcetPostedDetails-Invitebidders";
+import ClientprojectPostedDetailsEditproject from "./pages/sprint_5/client-projectPostedDetails-Editproject";
+import ClientProjectInprogress from "./pages/sprint_5/client-ProjectInprogress";
+import ClientProjectInprogressdetails from "./pages/sprint_5/clientProjectinprogress-details";
+import ClientProjectInprogressdetailsMilestonepaid from "./pages/sprint_5/clientProjectinprogress-detailsMilestonespaid";
+import ClientProjectInprogressdetailsOnhold from "./pages/sprint_5/clientProjectinprogress-detailsOnhold";
+import ClientprojectPast from "./pages/sprint_5/client-projectPast";
+import ClientProjectpastDetailsclose from "./pages/sprint_5/clientProjectpast-Detailsclose";
+
+import ServiceproviderindividualProjectMybids from "./pages/sprint_5/serviceprovider-individualProjectsMybids";
+import ServiceproviderindividualProjectMybidsDetailswithchat from "./pages/sprint_5/serviceproviderIndividualProjectMybids-Detailswithchat";
+import ServiceproviderindividualProjectMybidsDetailswithoutchat from "./pages/sprint_5/serviceproviderIndividualProjectMybids-Detailswithoutchat";
+import ServiceproviderindividualProjectMybidsDetailsbidders from "./pages/sprint_5/serviceproviderIndividualProjectMybids-Detailsbidders";
+import ServiceproviderindividualProjectMybidsDetailsbidwithdrawn from "./pages/sprint_5/serviceproviderIndividualProjectMybids-Detailsbidwithdrawn";
+import ServiceproviderindividualProjectopen from "./pages/sprint_5/serviceproviderIndividual-Projectopen";
+import ServiceproviderindividualProjectopenDetails from "./pages/sprint_5/serviceproviderIndividual-ProjectopenDetails";
+import ServiceproviderindividualProjectopenDetailsmilestoneCompleted from "./pages/sprint_5/serviceproviderIndividual-ProjectopenDetailsmilestoneCompleted";
+import ServiceproviderindividualProjectopenDetailsOnhold from "./pages/sprint_5/serviceproviderIndividual-ProjectopenDetailsOnhold";
+import ServiceproviderindividualProjectopenDetailsHourlysheet from "./pages/sprint_5/serviceproviderIndividual-ProjectopenDetailsHourlysheet";
+import ServiceproviderindividualProjectpast from "./pages/sprint_5/serviceprovider-individualProjectspast";
+import ServiceproviderindividualProjectpastDetails from "./pages/sprint_5/serviceproviderIndividual-ProjectPast-Details";
+
+// sprint 7
+import ClientAccount from "./pages/sprint_7/client-account";
+import ServiceproviderindividualProfilesetting from "./pages/sprint_7/serviceproviderindividual-AccountProfilesetting";
+import ServiceproviderindividualAccount from "./pages/sprint_7/serviceproviderindividual-account";
+import ServiceproviderindividualSetting from "./pages/sprint_7/serviceproviderindividual-Accountsetting";
+import ServiceproviderindividualAccountupdateKYC from "./pages/sprint_7/serviceproviderindividual-AccountupdateKYC";
+import ServiceproviderindividualAccountcategoryandskills from "./pages/sprint_7/serviceproviderindividual-Accountcategory&skills";
+import ServiceproviderCompanyAccount from "./pages/sprint_7/serviceproviderCompany-account";
+import ServiceproviderCompanyAccountprofile from "./pages/sprint_7/serviceproviderCompany-Accountprofile";
+import ServiceproviderCompanyAccountKYC from "./pages/sprint_7/serviceproviderCompany-AccountKYC";
+import ServiceproviderComapanyAccountcategoryandskills from "./pages/sprint_7/serviceproviderCompany-Accountcategory&skills";
+import ServiceproviderindividualProfileswitch from "./pages/sprint_7/serviceproviderindividual-Profileswitch";
+import ServiceproviderindividualSelectorhire from "./pages/sprint_7/serviceproviderindividual-selectorHire";
+import ServiceproviderindividualSelectorbrowse from "./pages/sprint_7/serviceproviderindividual-selectorBrowse";
+
+// sprint 8
+import ClientsupportOpen from "./pages/sprint_8/clientsupport-open";
+import Clientsupportresolved from "./pages/sprint_8/clientsupport-openresloved";
+import ClientSave from "./pages/sprint_8/client-save";
+import ClientreportsService from "./pages/sprint_8/clientreports-service";
+import ClientreportsProjects from "./pages/sprint_8/clientreports-project";
+import ServiceproviderindividaulSupportOpen from "./pages/sprint_8/serviceproviderindividual-supportopen";
+import ServiceproviderindividualSupportresolved from "./pages/sprint_8/serviceproviderinidividual-supportresolved";
+import Serviceproviderindividualsaved from "./pages/sprint_8/serviceproviderinidividual-saved";
+import ServiceproviderindividaulReportsServices from "./pages/sprint_8/serviceproviderindividaul-reportservices";
+import ServiceproviderindividualReportsProjects from "./pages/sprint_8/serviceproviderindividual-reportsprojects";
+
+
+
+// 
+import ServiceproviderindividualEarnigsProjects from "./pages/sprint_9/serviceproviderindividual-earningprojects";
+
 
 
 function App() {
@@ -184,10 +237,64 @@ function App() {
         <Route path='/ServiceproviderindividualBrowseprojectFixedBidders' exact element={<ServiceproviderindividualBrowseprojectFixedBidders/>} />
         <Route path='/ServiceproviderindividualBrowseprojectdeatialsBidsubmitted' exact element={<ServiceproviderindividualBrowseprojectdeatialsBidsubmitted/>} />
 
-        {/* new */}
+        {/* sprint 5 */}
         <Route path='/ClientprojectPosted' exact element={<ClientprojectPosted/>} />
         <Route path='/ClientprojectPostedDetails' exact element={<ClientprojectPostedDetails/>} />
         <Route path='/ClientprojectPostedDetailsbidders' exact element={<ClientprojectPostedDetailsbidders/>} />
+        <Route path='/ClientprojectPostedDetailsInvitebidders' exact element={<ClientprojectPostedDetailsInvitebidders/>} />
+        <Route path='/ClientprojectPostedDetailsEditproject' exact element={<ClientprojectPostedDetailsEditproject/>} />
+        <Route path='/ClientProjectInprogress' exact element={<ClientProjectInprogress/>} />
+        <Route path='/ClientProjectInprogressdetails' exact element={<ClientProjectInprogressdetails/>} />
+        <Route path='/ClientProjectInprogressdetailsMilestonepaid' exact element={<ClientProjectInprogressdetailsMilestonepaid/>} />
+        <Route path='/ClientProjectInprogressdetailsOnhold' exact element={<ClientProjectInprogressdetailsOnhold/>} />
+        <Route path='/ClientprojectPast' exact element={<ClientprojectPast/>} />
+        <Route path='/ClientProjectpastDetailsclose' exact element={<ClientProjectpastDetailsclose/>} />
+
+        <Route path='/ServiceproviderindividualProjectMybids' exact element={<ServiceproviderindividualProjectMybids/>} />
+        <Route path='/ServiceproviderindividualProjectMybidsDetailswithchat' exact element={<ServiceproviderindividualProjectMybidsDetailswithchat/>} />
+        <Route path='/ServiceproviderindividualProjectMybidsDetailswithoutchat' exact element={<ServiceproviderindividualProjectMybidsDetailswithoutchat/>} />
+        <Route path='/ServiceproviderindividualProjectMybidsDetailsbidders' exact element={<ServiceproviderindividualProjectMybidsDetailsbidders/>} />
+        <Route path='/ServiceproviderindividualProjectMybidsDetailsbidwithdrawn' exact element={<ServiceproviderindividualProjectMybidsDetailsbidwithdrawn/>} />
+        <Route path='/ServiceproviderindividualProjectopen' exact element={<ServiceproviderindividualProjectopen/>} />
+        <Route path='/ServiceproviderindividualProjectopenDetails' exact element={<ServiceproviderindividualProjectopenDetails/>} />
+        <Route path='/ServiceproviderindividualProjectopenDetailsmilestoneCompleted' exact element={<ServiceproviderindividualProjectopenDetailsmilestoneCompleted/>} />
+        <Route path='/ServiceproviderindividualProjectopenDetailsOnhold' exact element={<ServiceproviderindividualProjectopenDetailsOnhold/>} />
+        <Route path='/ServiceproviderindividualProjectopenDetailsHourlysheet' exact element={<ServiceproviderindividualProjectopenDetailsHourlysheet/>} />
+        <Route path='/ServiceproviderindividualProjectpast' exact element={<ServiceproviderindividualProjectpast/>} />
+        <Route path='/ServiceproviderindividualProjectpastDetails' exact element={<ServiceproviderindividualProjectpastDetails/>} />
+
+        {/* sprint 7 */}
+        <Route path='/ClientAccount' exact element={<ClientAccount/>} />
+        <Route path='/ServiceproviderindividualProfilesetting' exact element={<ServiceproviderindividualProfilesetting/>} />
+        <Route path='/ServiceproviderindividualAccount' exact element={<ServiceproviderindividualAccount/>} />
+        <Route path='/ServiceproviderindividualSetting' exact element={<ServiceproviderindividualSetting/>} />
+        <Route path='/ServiceproviderindividualAccountupdateKYC' exact element={<ServiceproviderindividualAccountupdateKYC/>} />
+        <Route path='/ServiceproviderindividualAccountcategoryandskills' exact element={<ServiceproviderindividualAccountcategoryandskills/>} />
+        <Route path='/ServiceproviderCompanyAccount' exact element={<ServiceproviderCompanyAccount/>} />
+        <Route path='/ServiceproviderCompanyAccountprofile' exact element={<ServiceproviderCompanyAccountprofile/>} />
+        <Route path='/ServiceproviderCompanyAccountKYC' exact element={<ServiceproviderCompanyAccountKYC/>} />
+        <Route path='/ServiceproviderComapanyAccountcategoryandskills' exact element={<ServiceproviderComapanyAccountcategoryandskills/>} />
+        <Route path='/ServiceproviderindividualProfileswitch' exact element={<ServiceproviderindividualProfileswitch/>} />
+        <Route path='/ServiceproviderindividualSelectorhire' exact element={<ServiceproviderindividualSelectorhire/>} />
+        <Route path='/ServiceproviderindividualSelectorbrowse' exact element={<ServiceproviderindividualSelectorbrowse/>} />
+
+        {/*sprint 8*/}
+        <Route path='/ClientsupportOpen' exact element={<ClientsupportOpen/>} />
+        <Route path='/Clientsupportresolved' exact element={<Clientsupportresolved/>} />
+        <Route path='/ClientSave' exact element={<ClientSave/>} />
+        <Route path='/ClientreportsService' exact element={<ClientreportsService/>} />
+        <Route path='/ClientreportsProjects' exact element={<ClientreportsProjects/>} />
+
+        <Route path='/ServiceproviderindividaulSupportOpen' exact element={<ServiceproviderindividaulSupportOpen/>} />
+        <Route path='/ServiceproviderindividualSupportresolved' exact element={<ServiceproviderindividualSupportresolved/>} />
+        <Route path='/Serviceproviderindividualsaved' exact element={<Serviceproviderindividualsaved/>} />
+        <Route path='/ServiceproviderindividaulReportsServices' exact element={<ServiceproviderindividaulReportsServices/>} />
+        <Route path='/ServiceproviderindividualReportsProjects' exact element={<ServiceproviderindividualReportsProjects/>} />
+
+        {/* new */}
+        <Route path='/ServiceproviderindividualEarnigsProjects' exact element={<ServiceproviderindividualEarnigsProjects/>} />
+        
+
 
 
       </Routes>

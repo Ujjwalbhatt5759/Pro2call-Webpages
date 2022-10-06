@@ -4,7 +4,7 @@ import { Accordion, Card, Button } from 'react-bootstrap';
 
 
 
-function ServiceproviderHireReviewprojectmilestone() {
+function ClientprojectPostedDetailsEditproject() {
 
     return (
         <>
@@ -44,12 +44,12 @@ function ServiceproviderHireReviewprojectmilestone() {
                     <div class="row pt-4">
                         <div class="col-md-8 mt-2 pt-5 mt-sm-5 ">
                             <div class="client-profilehead">
-                                <h1>project review</h1>
-                                <h2>step 4: additional preference</h2>
+                                <h1>edit project</h1>
+                                <h2>update or edit the details</h2>
                             </div>
                         </div>
                         <div class="col-md-4 text-left text-sm-right mt-2 pt-2 pt-sm-5 mt-sm-5">
-                            <button type="button" class="btn btn-login">POST YOUR PROJECT</button>
+                            <button type="button" class="btn btn-login">UPDATE YOUR PROJECT</button>
                         </div>
                     </div>
 
@@ -62,12 +62,12 @@ function ServiceproviderHireReviewprojectmilestone() {
 
                             <div class="form-group">
                                 <label for="#" class="profile-label">Headline for your project</label>
-                                <input type="email" class="form-control login-input profile-inpt" placeholder="Drainage pipe blockage removal" />
+                                <input type="email" class="form-control login-input profile-inpt" placeholder="UI/UX Designer for a Mobile App" />
                             </div>
 
                             <div class="form-group">
                                 <label for="#" class="profile-label">Describe your project</label>
-                                <textarea class="form-control  login-input profile-inpt" placeholder="You may have experience in fixing a lot of things at home but plumbing isn’t everyone’s cup of tea. Plumbing issues such as clogged drains, leaky faucets, Plumbing issues need to be addressed immediately in order to prevent them from exacerbating or causing further damages. Minor plumbing problems are quite common in every household. Book our plumbing services for all kinds of general plumbing services such as loose and leaky faucets, dripping tap, clogged shower head, cistern repair, toilet flush not working, clogged drain and sink or any other plumbing work."
+                                <textarea class="form-control  login-input profile-inpt" placeholder="Hi, we need a UI/UX specialist for my upcoming mobile app regarding the cab booking & services. We would like to work with young and dynamic mind who can thing outside the box yet deliver the traditional user experience. The designs should be user friendly and the choice of softwares would be Adobe XD, Figma. Please get back to us with your dribble or bechance portfolio."
                                     rows="8"></textarea>
                             </div>
 
@@ -369,11 +369,11 @@ function ServiceproviderHireReviewprojectmilestone() {
                                     </Accordion.Body>
                                 </Accordion.Item>
                             </Accordion>
-                            <button type="button" class="btn btn-info skill-btn">Add more milestone<img src="images/add-square.svg" alt="" /></button>
+                            
 
                             <div class="row mt-3 mt-sm-5">
                                 <div class="col-md-12">
-                                    <button type="button" class="btn btn-login mr-3 ">POST YOUR PROJECT</button>
+                                    <button type="button" class="btn btn-login mr-3 ">UPDATE YOUR PROJECT</button>
                                     <button type="button" class="btn btn-outline-primary post-btn ">BACK</button>
                                 </div>
                             </div>
@@ -517,4 +517,4 @@ function ServiceproviderHireReviewprojectmilestone() {
     );
 }
 
-export default ServiceproviderHireReviewprojectmilestone;
+export default ClientprojectPostedDetailsEditproject;

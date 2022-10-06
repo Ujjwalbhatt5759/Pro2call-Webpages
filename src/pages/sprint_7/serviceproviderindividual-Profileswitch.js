@@ -7,7 +7,7 @@ import MultiRangeSlider from "multi-range-slider-react";
 
 
 
-function ServiceproviderindividualBrowse () {
+function ServiceproviderindividualProfileswitch () {
 
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
@@ -26,15 +26,30 @@ function ServiceproviderindividualBrowse () {
                 <div class="container">
                     <div class="tophead border-bottom">
                         <div class="row align-items-center">
-                            <div class="col-md-5 col-5 moblogo">
+                            <div class="col-md-3 col-5 moblogo">
                                 <a href="#"><img src="images/Logo.svg" alt="" /></a>
-                                <button type="button" class="btn btn-login ml-4 d-none d-sm-inline-block">WANT TO HIRE SOMEONE ?</button>
                             </div>
-                            <div class="col-md-7 col-7">
+                            <div class="col-md-9 col-7">
                                 <ul class="tophead-right">
                                     <li class="client-loginHead d-none d-sm-block">
                                         <a href="#">
                                             <img src="images/service-prohead-img.png" class="pro-headimg" alt="" />You are logged in as a <span>SERVICE PROVIDER</span>
+                                        </a>
+                                    </li>
+                                    <li class=" d-none d-sm-block">
+                                        <a href="#">
+                                            <div class="filter-box  switch-selctbox">
+                                                <div class=" d-flex align-items-center">
+                                                    <img src="images/switch-user.svg" alt="" height="14px" />
+                                                    <select class="form-control form-select switch-select" aria-label=".form-select-lg example">
+                                                        <option value="3">Switch Profile</option>
+                                                        <option>Newest listing first</option>
+                                                        <option>Lowest budget</option>
+                                                        <option>Highest budget</option>
+                                                        <option>Oldest listing first</option>
+                                                    </select>
+                                                </div>
+                                            </div>
                                         </a>
                                     </li>
                                     <li class="user-picHead">
@@ -54,7 +69,7 @@ function ServiceproviderindividualBrowse () {
                     </div>
                 </div>
             </header>
-            
+
             <Navbar expand="lg" class="listed-bar">
                 <div class="container">
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -103,6 +118,7 @@ function ServiceproviderindividualBrowse () {
                                     <h6 onClick={handleShow} ><img src="images/filter.svg" alt="" height="27px" /> Filter results</h6>
                                 </div>
                                 <div class="col-md-7 pl-3 pl-sm-0">
+
                                     <div class="filter-box sprint4filetrbox">
                                         <div class=" d-flex align-items-center">
                                             <img src="images/arrow.svg" alt="" height="22px" />
@@ -115,6 +131,8 @@ function ServiceproviderindividualBrowse () {
                                             </select>
                                         </div>
                                     </div>
+
+
                                 </div>
                             </div>
                         </div>
@@ -135,13 +153,13 @@ function ServiceproviderindividualBrowse () {
                             </div>
                         </div>
                     </div>
-                  
+
                 </div>
             </section>
 
             <section class="pb-4 pb-sm-5">
                 <div class="container">
-                <div class="row mt-2">
+                    <div class="row mt-2">
                         <div class="col-md-12">
 
                             <div className="service-list mt-2">
@@ -156,8 +174,8 @@ function ServiceproviderindividualBrowse () {
                                             <div class="col-md-11 pl-2 pl-sm-4 col-10">
                                                 <div class="service-item service-itemnew">
                                                     <p>
-                                                      <span class="service-itemdraft serviceitemyfixed service-individualcompany"><img src="images/verify.png" class="mr-1 mb-1" alt="" />COMPANY</span>
-                                                      <img src="images/Iconly-Bold-Star.svg" class="mb-2 ml-3" alt="" height="15px" /> <span class="gorden-ratetext"> 4.7 </span> (147 reviews)
+                                                        <span class="service-itemdraft serviceitemyfixed service-individualcompany"><img src="images/verify.png" class="mr-1 mb-1" alt="" />COMPANY</span>
+                                                        <img src="images/Iconly-Bold-Star.svg" class="mb-2 ml-3" alt="" height="15px" /> <span class="gorden-ratetext"> 4.7 </span> (147 reviews)
                                                     </p>
                                                     <h6>WC hardware installation for 3 bathrooms</h6>
                                                 </div>
@@ -205,8 +223,8 @@ function ServiceproviderindividualBrowse () {
                                             <div class="col-md-11 pl-2 pl-sm-4 col-10">
                                                 <div class="service-item service-itemnew">
                                                     <p>
-                                                      <span class="service-itemdraft serviceitemyindividual service-individualcompany"><img src="images/gray-verify.svg" class="mr-1 mb-1" alt="" />INDIVIDUAL</span>
-                                                      <img src="images/Iconly-Bold-Star.svg" class="mb-2 ml-3" alt="" height="15px" /> <span class="gorden-ratetext"> 4.7 </span> (147 reviews)
+                                                        <span class="service-itemdraft serviceitemyindividual service-individualcompany"><img src="images/gray-verify.svg" class="mr-1 mb-1" alt="" />INDIVIDUAL</span>
+                                                        <img src="images/Iconly-Bold-Star.svg" class="mb-2 ml-3" alt="" height="15px" /> <span class="gorden-ratetext"> 4.7 </span> (147 reviews)
                                                     </p>
                                                     <h6>Full bathroom hardware installation for corporate office</h6>
                                                 </div>
@@ -255,8 +273,8 @@ function ServiceproviderindividualBrowse () {
                                             <div class="col-md-11 pl-2 pl-sm-4 col-10">
                                                 <div class="service-item service-itemnew">
                                                     <p>
-                                                      <span class="service-itemdraft serviceitemyfixed service-individualcompany"><img src="images/verify.png" class="mr-1 mb-1" alt="" />COMPANY</span>
-                                                      <img src="images/Iconly-Bold-Star.svg" class="mb-2 ml-3" alt="" height="15px" /> <span class="gorden-ratetext"> 4.7 </span> (147 reviews)
+                                                        <span class="service-itemdraft serviceitemyfixed service-individualcompany"><img src="images/verify.png" class="mr-1 mb-1" alt="" />COMPANY</span>
+                                                        <img src="images/Iconly-Bold-Star.svg" class="mb-2 ml-3" alt="" height="15px" /> <span class="gorden-ratetext"> 4.7 </span> (147 reviews)
                                                     </p>
                                                     <h6>WC hardware installation for 3 bathrooms</h6>
                                                 </div>
@@ -305,8 +323,8 @@ function ServiceproviderindividualBrowse () {
                                             <div class="col-md-11 pl-2 pl-sm-4 col-10">
                                                 <div class="service-item service-itemnew">
                                                     <p>
-                                                      <span class="service-itemdraft serviceitemyindividual service-individualcompany"><img src="images/gray-verify.svg" class="mr-1 mb-1" alt="" />INDIVIDUAL</span>
-                                                      <img src="images/Iconly-Bold-Star.svg" class="mb-2 ml-3" alt="" height="15px" /> <span class="gorden-ratetext"> 4.7 </span> (147 reviews)
+                                                        <span class="service-itemdraft serviceitemyindividual service-individualcompany"><img src="images/gray-verify.svg" class="mr-1 mb-1" alt="" />INDIVIDUAL</span>
+                                                        <img src="images/Iconly-Bold-Star.svg" class="mb-2 ml-3" alt="" height="15px" /> <span class="gorden-ratetext"> 4.7 </span> (147 reviews)
                                                     </p>
                                                     <h6>Full bathroom hardware installation for corporate office</h6>
                                                 </div>
@@ -355,8 +373,8 @@ function ServiceproviderindividualBrowse () {
                                             <div class="col-md-11 pl-2 pl-sm-4 col-10">
                                                 <div class="service-item service-itemnew">
                                                     <p>
-                                                      <span class="service-itemdraft serviceitemyindividual service-individualcompany"><img src="images/gray-verify.svg" class="mr-1 mb-1" alt="" />INDIVIDUAL</span>
-                                                      <img src="images/Iconly-Bold-Star.svg" class="mb-2 ml-3" alt="" height="15px" /> <span class="gorden-ratetext"> 4.7 </span> (147 reviews)
+                                                        <span class="service-itemdraft serviceitemyindividual service-individualcompany"><img src="images/gray-verify.svg" class="mr-1 mb-1" alt="" />INDIVIDUAL</span>
+                                                        <img src="images/Iconly-Bold-Star.svg" class="mb-2 ml-3" alt="" height="15px" /> <span class="gorden-ratetext"> 4.7 </span> (147 reviews)
                                                     </p>
                                                     <h6>Full bathroom hardware installation for corporate office</h6>
                                                 </div>
@@ -538,4 +556,4 @@ function ServiceproviderindividualBrowse () {
     );
 }
 
-export default ServiceproviderindividualBrowse;
+export default ServiceproviderindividualProfileswitch;

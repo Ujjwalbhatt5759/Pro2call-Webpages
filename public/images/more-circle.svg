@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="vuesax_bold_more-circle" data-name="vuesax/bold/more-circle" transform="translate(-300 -252)">
+    <g id="more-circle" transform="translate(300 252)">
+      <path id="Vector" d="M16.667,0A16.667,16.667,0,1,0,33.333,16.667,16.694,16.694,0,0,0,16.667,0ZM10,18.333a1.667,1.667,0,1,1,1.667-1.667A1.661,1.661,0,0,1,10,18.333Zm6.667,0a1.667,1.667,0,1,1,1.667-1.667A1.661,1.661,0,0,1,16.667,18.333Zm6.667,0A1.667,1.667,0,1,1,25,16.667,1.661,1.661,0,0,1,23.333,18.333Z" transform="translate(3.333 3.333)" fill="#dd3636"/>
+      <path id="Vector-2" data-name="Vector" d="M0,0H40V40H0Z" transform="translate(40 40) rotate(180)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

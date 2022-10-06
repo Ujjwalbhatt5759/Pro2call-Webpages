@@ -281,6 +281,7 @@ background-size: 40%; min-height: 100vh;}
     padding: 8px 30px; font-size: 13px; font-weight: 600;}
     .browse-btn:hover{color: #ffffff;}
 .profile-label{color: #000000; font-size: 18px; font-weight: 600;}
+.profile-label span{font-style: italic; font-weight: normal;}
 .profile-inpt{padding-left: 0px;}
 .profile-content h1{color: #51459E; font-size: 18px; font-weight: 600;}
 .profile-content ul{margin: 0; padding-inline-start: 20px;}
@@ -288,7 +289,7 @@ background-size: 40%; min-height: 100vh;}
 
 .upload-btn-wrapper {position: relative; overflow: hidden; display: block; text-align: right; top: -53px; right: 18px;}
 .uploadBtn {background: #242424;  box-shadow: 0px 12px 34px #24242433; border-radius: 8px; color: #FFFFFF;
-    padding: 8px 30px; font-size: 13px; font-weight: 600; border: none; border: 2px solid #242424;}
+    padding: 8px 30px; font-size: 13px; font-weight: 600; border: 2px solid #242424;}
 .upload-btn-wrapper input[type=file] {font-size: 100px; position: absolute; left: -124px; top: 0; opacity: 0; cursor: pointer; height: 500px;
 font-size: 20px; width: 900px;}
 .profile-inpt{padding-left: 18px;}
@@ -467,6 +468,8 @@ font-size: 14px; font-weight: 500;}
 .accordreact .accordion-header .accordion-button .added-blackText{float: right; color: #242424; font-weight: 500; font-size: 14px;}
 
 .service-list{background: #FFFFFF; box-shadow: 0px 12px 34px #20345914; border-radius: 10px; position: relative;}
+
+
 .service-item p{margin-bottom: 0px; color: #51459E; font-size: 16px; font-weight: 700;}
 .service-item h6{color: #000000; font-size: 15px; margin-bottom: 0px;     text-overflow: ellipsis;
     overflow: hidden;
@@ -476,7 +479,9 @@ font-size: 14px; font-weight: 500;}
 .service-itemImg{width: 100%; height: 72px;}
 .service-itemImg img{width: 100%; height: 100%; object-fit: cover; border-radius: 10px;}
 .service-publicSec{background: #51459E1A; border-radius: 10px; padding: 19px 15px 19px 10px;}
+
 .new-loginbtn{padding: 8px 20px;}
+
 .service-publicSec h4{color: #000000; font-size: 14px; font-weight: 100; margin-bottom: 0px;}
 .service-publicSec h5{margin-bottom: 0px; color: #51459E; font-size: 13px; font-weight: 700;}
 .service-publicpink{background: #DD36361A;}
@@ -574,7 +579,7 @@ input:not(:checked) + .slider span.swinactive { display: inline-block; font-size
 .fixed-costbox h2{color: #51459ecc; font-weight: 700; font-size: 14px;}
 .fixed-costbox h1{color: #000000; font-weight: 700; font-size: 30px; margin-bottom: 0px;}
 .fixed-costbox p{color: #000000; font-weight: 100; font-size: 16px; line-height: 17px; margin-bottom: 0px; margin-top: 10px;}
-.fixed-costbox h6{color: #dd3636cc; font-weight: 700; font-size: 14px; margin-top: 0px;}
+.fixed-costbox h6{color: #dd3636cc; font-weight: 700; font-size: 14px; margin-top: 0px; margin-bottom: 0px;}
 .fixed-costbox h3{color: #242424; font-weight: 700; font-size: 12px; text-align: center; margin-top: 18px;
     background: #5A9E451A; border: 1px solid #5A9E45B3; border-radius: 10px; padding: 10px 0px;}
 
@@ -671,7 +676,13 @@ input:not(:checked) + .slider span.swinactive { display: inline-block; font-size
 .filter-box .form-select{outline: none; border: 0; background: url(../images/arrow-down.svg) no-repeat right; appearance: none;}
 .filter-box .form-select:focus{box-shadow: none; outline: none;}
 
+// 
+
 .sprint4filetrbox { padding: 5px 15px;}
+
+
+
+// 
 
 
 .play-img{float: left; height: 40px; width: 40px; object-fit: cover; object-position: top; margin-right: 10px; border-radius: 50%;}
@@ -1097,7 +1108,7 @@ background-position: right;  padding: 40px 20px;}
      margin-left: 0px; font-weight: 700; font-size: 14px;}
 .service-individualcompany{margin-left: 0px; font-weight: 700;}
 
-.client-project-postedDraft p{background: #919191; padding: 15px 10px;}
+.client-project-postedDraft p{background: #919191; padding: 16px 10px;}
 
 .service-itemnew p{color: #242424; font-weight: 500;}
 .service-individual-browsetextyellow p{background: #FAD15C; color: #9D7D24;  padding: 10px 10px;}
@@ -1183,17 +1194,126 @@ background-position: right;  padding: 40px 20px;}
 .new-removebtn{width: 100%;}
 .new-servicepublicsec{padding: 14px 20px 14px 5px;}
 
-
 .biding-rightpadding { padding-right: 176px;}
+.new-detialsbtn{padding: 8px 20px;}
+.inviteservicepublicsec{padding: 20px 40px 20px 10px;}
+.chatwithpopuprightpadding{padding-right: 80px;}
+
+.client-chatboxdetails p a {color: #242424; text-decoration: none;}
+.uploaddocument-milestones{padding-left: 25px; padding-bottom: 15px;}
+.uploaddocument-milestones h4{margin-bottom: 0px; color: #242424; font-weight: 500; font-size: 13px; line-height: 22px;}
+.delivery-milestoneboxaccord h2{color: #5A9E45; font-size: 12px; font-weight: 700; margin-bottom: 0px; text-transform: uppercase;}
+.delivery-milestoneboxaccord h3{color: #242424; font-size: 12px; font-weight: 700; margin-bottom: 0px;}
+.completed-bluetext {color: #1B9BDE !important;}
+.pending-graytext {color: #919191 !important;}
+.paidmilestones-text{background: #5A9E45;}
+.paidmilestones-text p{color: #FFFFFF;}
+.new-paid-milestonelogo {height: 48px; width: 48px; position: absolute; top: -30px; left: 195px;}
+.new-paid-milestonelogo img {height: 100%; width: 100%; object-fit: cover;}
+
+.accordreact .accordion-item.active{border: 1px solid #FFFFFF;}
+.accordreact .accordion-item.active:hover{border: 1px solid #5A9E45;}
 
 
-    
+
+.client-onholdchatbox{background: #DD36360D;
+    border: 1px solid #DD3636;}
+
+// 
+.Inprogress-servicelist{border: 1px solid #FFFFFF;}
+.Inprogress-servicelist:hover{border: 1px solid #DD3636;}
+
+.invite-notification{left: 100px; top: -7px;}
+.openproject-notification{left: 150px; top: -7px;}
+
+
+.progress-bar{width: 80%; background: #51459E;}
+.progress {height: 6px; background: #DDDDDD; border-radius: 10px;}
+.progess-value p{color: #242424; font-weight: 600; font-size: 14px; margin-bottom: 0px;}
+.progess-value h6{color: #51459E; font-weight: 600; font-size: 14px; margin-bottom: 0px;}
+.incrase-change p{color: #242424; font-size: 13px; font-weight: 700; margin-bottom: 0px;}
+.incrase-change h6{font-weight: 600; font-size: 13px; margin-bottom: 0px;}
+.incrase-change h6 a{color: #51459E; text-decoration: none;}
+.incrase-change h6 img{height: 14px;}
+.withdraw-btnnew{padding: 8px 20px;
+    font-size: 13px;}
+
+.remarks-box{background: #FFFFFF ; box-shadow: 0px 12px 34px #20345914; border-radius: 10px; padding: 20px 25px; margin-top: 12px;}
+.margntop-accordimg{margin-top: -22px;}
+.greenfixed-costbox {color: #5A9E45 !important; font-weight: 900 !important;}
 
 
 
+// new
+.client-accountbox{background: #FEF6DF; border: 1px solid #FAD15C; border-radius: 10px; padding: 15px 30px;}
+.client-accountbox p{color: #242424; font-weight: 500; font-size: 14px; margin-bottom: 0px;}
+.client-accountbox p span a{color: #51459E; font-weight: 700; text-decoration: underline;}
 
+.account-Profile-Settings{ background: #FFFFFF; box-shadow: 0px 12px 34px #20345914; 
+    border-radius: 10px;
+}
+.profile-Settingstext-box{ padding-left: 25px; }
+.account-Profile-Settings h6{color: #242424; font-weight: 700; font-size: 23px; margin-bottom: 0px; line-height: 28px;} 
+.account-Profile-Settings p{color: #242424; font-weight: 500; font-size: 12px; margin-bottom: 0px; margin-top: 6px;}
+.account-Profile-Settings p a{color: #242424; text-decoration: none;}
+.account-Profile-SettingsrightBox{background: #51459E1A; border-radius: 10px; padding: 25px 20px;}
 
+.account-Profile-SettingsrightBoximg{width: 100%; height: 60px;}
+.account-Profile-SettingsrightBoximg img{width: 100%; height: 100%; object-fit: contain;}
 
+.account-secttingprofile{width: 110px; height: 110px;}
+.account-secttingprofile img{width: 100%; height: 100%; object-fit: contain; border: 1px solid #51459E; border-radius: 10px;}
+
+.category-skillsrightimg {width: 100%; height: 145px;}
+.category-skillsrightimg img{width: 100%; height: 100%; object-fit: contain;}
+.category-newbox{min-height: auto;}
+
+.switch-selctbox{ border: 2px solid #51459E; border-radius: 8px; padding: 0px 15px; box-shadow: none; }
+.switch-select{color: #51459E !important; font-weight: 600;  font-size: 12px;}
+
+// 
+.support-opensec h5{color: #000000;}
+.service-individual-browsetextpurple p{background: #9E458D; padding: 19px 10px}
+
+.serviceauto-generated{color: #9E458D;}
+.modal-title{width: 100%;}
+.new-loginbtnpop{padding: 6px 10px; font-weight: 500; font-size: 12px; margin-right: -15px;}
+.open-tickets {left: 140px; top: -7px;}
+
+.background-nonecolor{background: #FFFFFF;}
+
+.found-boxnew{margin: 20px 0px 0px 0px;}
+
+.found-boxnew .dash-img{height: 220px;}
+.found-boxnew h6{font-size: 16px; }
+.found-boxnew h5{font-size: 20px;}
+.found-boxnew p{font-size: 13px; font-weight: 400;}
+.found-boxnew h4{font-size: 18px;}
+
+.found-boxnew h2{color: #242424; font-size: 14px; font-weight: 500; margin-bottom: 0px;}
+.found-boxnew h2 span{color: #51459E; font-weight: 700; margin-right: 3px;}
+.found-boxnew h1{color: #DD3636; font-weight: 700; font-size: 17px; margin-bottom: 0px; display: flex; align-items: center;}
+.new-foundright{padding: 25px 0px 24px 50px;}
+
+.report-selctbox{padding: 12px 20px;}
+.client-reportservicesbox{background: #FFFFFF; box-shadow: 0px 12px 34px #20345914; border-radius: 10px; padding: 20px 18px;}
+.client-reportservicesbox h1{color: #51459E; font-weight: 900; margin-bottom: 0px; font-size: 14px;  text-transform: uppercase;
+     border-bottom: 2px solid #F0EFF6; padding-bottom: 10px;}
+.client-reportservicesbox p{color: #242424; font-weight: 500; margin-bottom: 0px; font-size: 11px; padding-top: 5px;}
+.client-reportservicesbox h2{color: #282C31; font-size: 27px; font-weight: 100; display: flex; align-items: center; margin-bottom: 0px; padding-top: 8px;}
+.client-reportservicesbox h2 img{height: 27px; margin-right: 10px;}
+.client-reportservicesbox h3{ font-weight: 500; font-size: 12px; margin-bottom: 0px; }
+.client-reportservicesbox h3 a{color: #51459E; text-decoration: none; display: flex; align-items: center;}
+.client-reportservicesbox h3 a img{height: 12px; margin-right: 5px;}
+.client-reportservicesbox h4{color: #51459E; font-weight: 900; font-size: 13px; margin-bottom: 0px; text-transform: uppercase;}
+.client-reportservicesbox h4 a{color: #51459E; text-decoration: none;}
+.client-reportservicesboxcompleted h1{color: #5A9E45;}
+.client-reportservicesboxinprogress h1{color: #1B9BDE;}
+.client-reportservicesboxcancelled h1{color: #DD3636;}
+
+// 
+.earning-projecthead{color: #575656; font-weight: 600; font-size: 14px; margin-top: 10px; margin-bottom: 0px;}
+.earning-projecthead span{color: #242424; font-weight: 700; font-size: 17px; margin-left: 10px;}
 
 
 
