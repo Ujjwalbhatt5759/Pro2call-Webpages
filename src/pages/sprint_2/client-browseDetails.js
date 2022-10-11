@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import { Accordion, Card, Button } from 'react-bootstrap';
-import { Modal } from 'react-bootstrap';
+import { Modal, Tabs, Tab } from 'react-bootstrap';
 
 import Slider from "react-slick";
 
@@ -854,37 +854,61 @@ function ClientbrowseDetails() {
                 </Modal.Header>
                 <Modal.Body>
 
-                    <div class="row mt-2">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="email" class="form-control login-input profile-inpt" placeholder="Full name" />
+                <Tabs defaultActiveKey="existing" id="addressselect" className="mb-4">                                    
+                    <Tab eventKey="existing" title="Existing">
+                            <div class="form-group radio-input desgin-radio addressradio">
+                                <input class="with-gap" type="radio" name="address-selector"  id="addressexit" />
+                                <label for="addressexit" class="radio-label">
+                                    <strong>Nishu Garg</strong>
+                                    <p>Plot No. 14, Sector 135, Noida, Uttar Pradesh - 201301 (India).</p>
+                                </label>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="email" class="form-control login-input profile-inpt" placeholder="Email address" />
+                            <div class="form-group radio-input desgin-radio addressradio">
+                                <input class="with-gap" type="radio" name="address-selector"  id="addressexit1" />
+                                <label for="addressexit1" class="radio-label">
+                                    <strong>Nishu Garg New</strong>
+                                    <p>Plot No. 14, Sector 135, Noida, Uttar Pradesh - 201301 (India).</p>
+                                </label>
+                            </div> 
+                    </Tab>
+                    <Tab eventKey="new" title="Add New">
+                        <div class="row mt-2">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="email" class="form-control login-input profile-inpt" placeholder="Full name" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="email" class="form-control login-input profile-inpt" placeholder="Email address" />
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="email" class="form-control login-input profile-inpt" placeholder="Society / Apartment" />
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="email" class="form-control login-input profile-inpt" placeholder="Block / Flat / Bldg" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="email" class="form-control login-input profile-inpt" placeholder="House / Flat no / Floor" />
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <input type="email" class="form-control login-input profile-inpt" placeholder="Society / Apartment" />
-                            </div>
-                        </div>
+                        <button type="button" class="btn btn-login browse-btn">SAVE THIS ADDRESS</button>
+                    </Tab> 
+                </Tabs>
 
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="email" class="form-control login-input profile-inpt" placeholder="Block / Flat / Bldg" />
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="email" class="form-control login-input profile-inpt" placeholder="House / Flat no / Floor" />
-                            </div>
-                        </div>
-                    </div>
+                 
 
-                    <button type="button" class="btn btn-login browse-btn">SAVE THIS ADDRESS</button>
+                    
 
                 </Modal.Body>
                 <Modal.Footer>
