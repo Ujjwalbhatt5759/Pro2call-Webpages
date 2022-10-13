@@ -1031,6 +1031,13 @@ input:not(:checked) + .slider span.swinactive { display: inline-block; font-size
 .gorden-ratetext{color: #51459E; font-weight: 700;}
 .padding-redtext{color: #DD3636;}
 
+.mark-paymentbtn { padding: 0; font-size: 13px; font-weight: 600; margin-bottom: 0px; color: #1B9BDE; }
+.raiseh3color { background: #51459E1A !important; line-height: 20px; border: 1px solid #51459e !important; display: flex; align-items: center; justify-content: center;}
+.extracostadding .form-control, .extracostadding .select-box { padding:10px 10px; height: 40px; font-size: 12px; width: 100px; }
+.extracostadding select.form-control  { padding:0px; font-size: 12px; height: auto; background-size: 15px; width: 100%;}
+.extracostadding th { font-size: 12px; padding: 5px 10px;}
+.extracostadding td {  padding: 5px 10px; font-size: 13px;}
+.extracostadding tfoot { background: #eee; }
 // 
 .client-chatboxdetails{background: #FEF6DF 0% 0% no-repeat padding-box; border: 1px solid #FAD15C; border-radius: 10px;
      position: relative;}
