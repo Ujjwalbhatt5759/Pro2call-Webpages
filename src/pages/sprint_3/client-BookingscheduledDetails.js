@@ -45,10 +45,7 @@ function ClientBookingscheduledDetails () {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-
-    const [showinvoice, setShowinvoice] = useState(false);
-    const handleCloseinvoice = () => setShowinvoice(false);
-    const handleShowinvoice = () => setShowinvoice(true);
+ 
 
     return (
         <>
@@ -612,7 +609,7 @@ function ClientBookingscheduledDetails () {
                                             <h6>12th Jun 2022</h6>
                                         </div>
                                         <div class="col-md-7 col-6 text-right"> 
-                                            <button type="button" class="btn btn-danger remove-btn" onClick={handleShowinvoice}>RE-SECHEDULE</button>
+                                            <button type="button" class="btn btn-danger remove-btn" onClick={handleShow}>RE-SECHEDULE</button>
                                         </div>
                                     </div>
 
@@ -651,7 +648,7 @@ function ClientBookingscheduledDetails () {
                                             <h4>$75</h4>
                                         </div>
                                     </div>
-                                    <h3 className="mb-0 raiseh3color">Is your Service Completed? <button className="btn mark-paymentbtn ml-1" onClick={handleShowinvoice}>Raise Service Invoice</button></h3>
+                                    <h3 className="mb-0 raiseh3color">Is your Service Completed? <button className="btn mark-paymentbtn ml-1" >Raise Service Invoice</button></h3>
                                 </div>
                                 <div class="Conveniencebox service-head p-3 mt-3">
                                     <div class="row">
@@ -871,117 +868,7 @@ function ClientBookingscheduledDetails () {
                 </Modal.Footer>
             </Modal>
 
-
-            <Modal show={showinvoice} onHide={handleCloseinvoice} className="filter-popup modal-dialog-slideout">
-                <Modal.Header closeButton>
-                    <Modal.Title>
-                        <div class="service-head">
-                            <img src="images/popup-logo.svg" height="45px" alt="" />
-                            <h1>mark your <span>payment</span></h1>
-                        </div>
-                    </Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-
-                    <div class="fixed-costbox border-0 p-0"> 
-                        <div class="row align-items-end">
-                            <div class="col-md-12">
-                                <h2>Previous Cost</h2>
-                                <h1 className="border-bottom pb-2">$750.00</h1> 
-                            </div> 
-                        </div>
-                    </div>
-
-                    <label for="#" class="profile-label mt-3">Time Extended</label>
-                    <div class="mb-3 desgin-radio">
-                        <input class="with-gap" type="radio" name="timeextended" id="timeextendedyes" />
-                            <label for="timeextendedyes" class="radio-label">Yes</label>
-                     
-                        <input class="with-gap" type="radio" name="timeextended" id="timeextendedno" />
-                            <label for="timeextendedno" class="radio-label">No</label>
-                    </div>
-
-                    <label for="#" class="profile-label mt-2">Extra Charges</label>
-
-
-                    <table className="table table-striped extracostadding">
-                        <tr>
-                            <th>Particulars</th>
-                            <th>Qty</th>
-                            <th>Cost</th>
-                            <th></th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="select-box form-group">
-                                    <select className="form-control select-checkout">
-                                        <option value="3">Select</option> 
-                                    </select>
-                                </div>
-                            </td>
-                            <td>
-                            <div class="select-box form-group">
-                                <select className="form-control select-checkout">
-                                    <option value="3">Select</option>
-                                </select>
-                            </div>
-                            </td>
-                            <td>
-                                <input type="email" class="form-control login-input profile-inpt mb-3" placeholder="" />
-                            </td>
-                            <td><img src="images/add-square.svg" height="20px" /></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="select-box form-group">
-                                    <select className="form-control select-checkout">
-                                        <option value="3">Select</option> 
-                                    </select>
-                                </div>
-                            </td>
-                            <td>
-                            <div class="select-box form-group">
-                                <select className="form-control select-checkout">
-                                    <option value="3">Select</option>
-                                </select>
-                            </div>
-                            </td>
-                            <td>
-                                <input type="email" class="form-control login-input profile-inpt mb-3" placeholder="" />
-                            </td>
-                            <td><img src="images/close-square1.svg"  height="20px" /></td>
-                        </tr>
-                        <tr>
-                            <td colSpan={2} className="text-right">
-                                 Sub-Total
-                            </td>
-                            <td>
-                                <strong>$300.00</strong>
-                            </td>
-                            <td></td>
-                        </tr>
-                        <tfoot>
-                            <tr>
-                                <td colSpan={2} className="text-right">
-                                    Total
-                                </td>
-                                <td>
-                                    <strong>$350.00</strong>
-                                </td>
-                                <td></td>
-                            </tr>
-                        </tfoot>
-                    </table>
-
-                     
-
-                    
-
-                </Modal.Body>
-                <Modal.Footer> 
-                    <button type="button" class="btn btn-login">Submit</button> 
-                </Modal.Footer>
-            </Modal>
+ 
         </>
     );
 }

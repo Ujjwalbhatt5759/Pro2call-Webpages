@@ -59,6 +59,7 @@ import ServiceproviderServicesHistoryDetailsreview from "./pages/sprint_3/servic
 import ServiceproviderServicesHistoryDetailsAlreadyreviewed from "./pages/sprint_3/serviceprovider-serviceHistoryDetailsAlreadyreviewed";
 import ClientBookingscheduled from "./pages/sprint_3/client-Bookingscheduled";
 import ClientBookingscheduledDetails from "./pages/sprint_3/client-BookingscheduledDetails";
+import ClientBookingscheduledDetailsInvoice from "./pages/sprint_3/client-BookingscheduledDetailsInvoice";
 import ClientBookingdetailsReScheduledconfirmed from "./pages/sprint_3/client-BookingscheduledRescheduledconfirmed";
 import ClientBookingdetailsCancelconfirmed from "./pages/sprint_3/client-Bookingscheduled-Canceconfirmed";
 import ClientBookingPendingpayment from "./pages/sprint_3/client-BookingPaymentpending";
@@ -199,6 +200,7 @@ function App() {
         <Route path='/ServiceproviderServicesHistoryDetailsAlreadyreviewed' exact element={<ServiceproviderServicesHistoryDetailsAlreadyreviewed/>} />
         <Route path='/ClientBookingscheduled' exact element={<ClientBookingscheduled/>} />
         <Route path='/ClientBookingscheduledDetails' exact element={<ClientBookingscheduledDetails/>} />
+        <Route path='/ClientBookingscheduledDetailsInvoice' exact element={<ClientBookingscheduledDetailsInvoice/>} />
         <Route path='/ClientBookingdetailsReScheduledconfirmed' exact element={<ClientBookingdetailsReScheduledconfirmed/>} />
         <Route path='/ClientBookingdetailsCancelconfirmed' exact element={<ClientBookingdetailsCancelconfirmed/>} />
         <Route path='/ClientBookingPendingpayment' exact element={<ClientBookingPendingpayment/>} />
