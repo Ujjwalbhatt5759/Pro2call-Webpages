@@ -269,6 +269,52 @@ function ServiceproviderindividualProjectopenDetailsHourlysheet () {
                                                     </div>
                                                 </div>
 
+                                                <div class="">
+                                                <div class="row">
+                                                    <div class="col-md-10">
+                                                        <label for="#" class="profile-label">Upload supporting documents</label>
+                                                        <div class="position-relative mb-0">
+                                                            <input type="email" class="form-control login-input profile-inpt" placeholder="3 images uploaded" />
+                                                            <div class="upload-btn-wrapper">
+                                                                <button class="uploadBtn">
+                                                                    BROWSE
+                                                                </button>
+                                                                <input type="file" />
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row margntop-accordimg">
+                                                            <div class="col-md-4 col-4">
+                                                                <div class="Featured-img">
+                                                                    <img src="images/furniture.jpg" alt="" class="furnitured-img" />
+                                                                    <img src="images/close-far.svg" alt="" class="close-imgafar" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4 col-4">
+                                                                <div class="Featured-img">
+                                                                    <img src="images/far2.jpg" alt="" class="furnitured-img" />
+                                                                    <img src="images/close-far.svg" alt="" class="close-imgafar" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4 col-4">
+                                                                <div class="Featured-img">
+                                                                    <img src="images/furniture.jpg" alt="" class="furnitured-img" />
+                                                                    <img src="images/close-far.svg" alt="" class="close-imgafar" />
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <label for="#" class="profile-label mt-3">Any other remarks for this milestone</label>
+                                                            <textarea class="form-control  login-input profile-inpt" placeholder="You may have experience in fixing a lot of things at home but plumbing isn’t everyone’s cup of tea." rows="3"></textarea>
+                                                        </div>
+ 
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
                                                 <button type="button" class="btn btn-login mt-2 mr-0 mr-3">UPDATE TIME SHEET</button>
                                                 <button type="button" class="btn btn-warning exlpore-btn new-explorebtn text-uppercase mt-2">RAISE A DISPUTE</button>
 
