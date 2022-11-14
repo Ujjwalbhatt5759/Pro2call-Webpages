@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
-
 var servicesettings = {
     dots: true,
     arrows: false, 
@@ -70,6 +69,7 @@ function Home() {
                     </div>
                 </div>
             </header>
+            
             <section class="hero-section py-4 py-sm-5 mt-5">
                 <div class="container">
                     <div class="row text-center">

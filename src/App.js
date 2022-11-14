@@ -124,7 +124,29 @@ import ServiceproviderindividualProfileswitch from "./pages/sprint_7/serviceprov
 import ServiceproviderindividualSelectorhire from "./pages/sprint_7/serviceproviderindividual-selectorHire";
 import ServiceproviderindividualSelectorbrowse from "./pages/sprint_7/serviceproviderindividual-selectorBrowse";
 
+// sprint 8
+import ClientsupportOpen from "./pages/sprint_8/clientsupport-open";
+import Clientsupportresolved from "./pages/sprint_8/clientsupport-openresloved";
+import ClientSave from "./pages/sprint_8/client-save";
+import ClientreportsService from "./pages/sprint_8/clientreports-service";
+import ClientreportsProjects from "./pages/sprint_8/clientreports-project";
+import ServiceproviderindividaulSupportOpen from "./pages/sprint_8/serviceproviderindividual-supportopen";
+import ServiceproviderindividualSupportresolved from "./pages/sprint_8/serviceproviderinidividual-supportresolved";
+import Serviceproviderindividualsaved from "./pages/sprint_8/serviceproviderinidividual-saved";
+import ServiceproviderindividaulReportsServices from "./pages/sprint_8/serviceproviderindividaul-reportservices";
+import ServiceproviderindividualReportsProjects from "./pages/sprint_8/serviceproviderindividual-reportsprojects";
 
+
+
+// sprint9
+import ServiceproviderindividualEarnigsProjects from "./pages/sprint_9/serviceproviderindividual-earningprojects";
+import ServiceproviderindividualEarningprojectsDetails from "./pages/sprint_9/serviceproviderIndividual-earningproject-Details";
+import ServiceproviderindividualEarnigsServices from "./pages/sprint_9/serviceproviderindividual-earningservices";
+import ServiceproviderindividualEarningsServicesDetails from "./pages/sprint_9/serviceproviderindividual-earningsService-detals";
+import ClientexpensesProjects from "./pages/sprint_9/clientexpense-project";
+import ClientexpensesprojectsDetails from "./pages/sprint_9/clientexpense-projectdetails";
+import ClientexpenseServiceDetails from "./pages/sprint_9/clientexpense-Servicedetals";
+import ClientexpensesServices from "./pages/sprint_9/clientexpense-services";
 
 
 
@@ -263,11 +285,29 @@ function App() {
         <Route path='/ServiceproviderindividualSelectorhire' exact element={<ServiceproviderindividualSelectorhire/>} />
         <Route path='/ServiceproviderindividualSelectorbrowse' exact element={<ServiceproviderindividualSelectorbrowse/>} />
 
-       
+        {/*sprint 8*/}
+        <Route path='/ClientsupportOpen' exact element={<ClientsupportOpen/>} />
+        <Route path='/Clientsupportresolved' exact element={<Clientsupportresolved/>} />
+        <Route path='/ClientSave' exact element={<ClientSave/>} />
+        <Route path='/ClientreportsService' exact element={<ClientreportsService/>} />
+        <Route path='/ClientreportsProjects' exact element={<ClientreportsProjects/>} />
+
+        <Route path='/ServiceproviderindividaulSupportOpen' exact element={<ServiceproviderindividaulSupportOpen/>} />
+        <Route path='/ServiceproviderindividualSupportresolved' exact element={<ServiceproviderindividualSupportresolved/>} />
+        <Route path='/Serviceproviderindividualsaved' exact element={<Serviceproviderindividualsaved/>} />
+        <Route path='/ServiceproviderindividaulReportsServices' exact element={<ServiceproviderindividaulReportsServices/>} />
+        <Route path='/ServiceproviderindividualReportsProjects' exact element={<ServiceproviderindividualReportsProjects/>} />
+
+        {/* sprint9 */}
+        <Route path='/ServiceproviderindividualEarnigsProjects' exact element={<ServiceproviderindividualEarnigsProjects/>} />
+        <Route path='/ServiceproviderindividualEarningprojectsDetails' exact element={<ServiceproviderindividualEarningprojectsDetails/>} />
+        <Route path='/ServiceproviderindividualEarnigsServices' exact element={<ServiceproviderindividualEarnigsServices/>} />
+        <Route path='/ServiceproviderindividualEarningsServicesDetails' exact element={<ServiceproviderindividualEarningsServicesDetails/>} />
+        <Route path='/ClientexpensesProjects' exact element={<ClientexpensesProjects/>} />
+        <Route path='/ClientexpensesprojectsDetails' exact element={<ClientexpensesprojectsDetails/>} />
+        <Route path='/ClientexpenseServiceDetails' exact element={<ClientexpenseServiceDetails/>} />
+        <Route path='/ClientexpensesServices' exact element={<ClientexpensesServices/>} />
         
-
-
-
       </Routes>
     </Router>
   );

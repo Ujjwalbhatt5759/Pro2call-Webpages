@@ -4,7 +4,7 @@ import { Accordion, Card, Button } from 'react-bootstrap';
 import { Modal } from 'react-bootstrap';
 import Form from 'react-bootstrap/Form'
 
-function ServiceproviderindividualProjectpastDetails () {
+function ServiceproviderindividualEarningprojectsDetails () {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
@@ -50,7 +50,7 @@ function ServiceproviderindividualProjectpastDetails () {
                         <div class="col-md-8 mt-2 pr-0">
                             <div class="service-head">
                                 <h1><span>full bathroom hardware installation for corporate office</span></h1>
-                                <h2><span><a href="#">Projects</a></span> <img src="images/service-arrowright.svg" class="mr-2" alt="" />Open projects</h2>
+                                <h2><span><a href="#">Projects</a></span> <img src="images/service-arrowright.svg" class="mr-2" alt="" />Past projects</h2>
                             </div>
                         </div>
                         <div class="col-md-2 text-sm-right ">
@@ -107,6 +107,24 @@ function ServiceproviderindividualProjectpastDetails () {
 
                     <div class="row mt-3">
                         <div class="col-md-8 mb-3 mb-sm-0">
+
+                            {/* <div class="client-chatboxdetails ml-0 ml-sm-3 mt-2">
+                                <div class="rightchatboxbg">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-2 d-none d-sm-inline-block">
+                                            <img src="images/client-chatboxrightimg.png" class="chatboxrightimg" alt="" />
+                                        </div>
+                                        <div class="col-md-5 mb-2 mb-sm-0">
+                                            <h1>Chat with the client</h1>
+                                            <p><a href="#">Click here to leave a message.</a></p>
+                                        </div>
+                                        <div class="col-md-5 text-right">
+                                            <button type="button" class="btn btn-login ml-4 ">CHAT WITH CLIENT NOW</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> */}
+
 
                             <div class="service-detailscont">
                                 <h4>Project milestones</h4>
@@ -1238,7 +1256,8 @@ function ServiceproviderindividualProjectpastDetails () {
                                             <h6>12th Jun 2022</h6>
                                         </div>
                                         <div class="col-md-7 col-6 text-right pl-0">
-                                        <button type="button" class="btn btn-login">REVIEW THIS CLIENT</button>
+                                        {/* <button type="button" class="btn btn-login">REVIEW THIS CLIENT</button> */}
+                                        <button type="button" class="btn btn-login browse-btn">ALREADY REVIEWED</button>
                                         </div>
                                     </div>
 
@@ -1269,7 +1288,14 @@ function ServiceproviderindividualProjectpastDetails () {
                                             <h4>12th Jun 2022</h4>
                                         </div>
                                     </div>
-                                    
+                                    <div class="row mt-3">
+                                        <div class="col-md-8 col-7">
+                                            <h4>Next deliverable due date</h4>
+                                        </div>
+                                        <div class="col-md-4 text-right col-5">
+                                            <h4>18th Jun 2022</h4>
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <div class="assured-secbox  mt-3">
@@ -1683,4 +1709,4 @@ function ServiceproviderindividualProjectpastDetails () {
     );
 }
 
-export default ServiceproviderindividualProjectpastDetails;
+export default ServiceproviderindividualEarningprojectsDetails;
