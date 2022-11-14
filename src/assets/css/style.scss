@@ -578,6 +578,7 @@ font-size: 14px; font-weight: 500;}
   
   .slider.round {
     border-radius: 20px;
+    border: 1px solid #D6D6D6;
   }
   
   .slider.round:before {
@@ -1366,6 +1367,9 @@ background-position: right;  padding: 40px 20px;}
 
 .account-sectionbg {background: url(../images/client-accountbg.svg) bottom right; background-repeat: no-repeat;
     background-size: 45%;}
+
+// sprint 6
+.team-membertext{font-weight: 500; font-size: 18px; margin-bottom: 0px; color: #575656;}
 
 
 

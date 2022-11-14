@@ -110,6 +110,9 @@ import ServiceproviderindividualProjectopenDetailsHourlysheet from "./pages/spri
 import ServiceproviderindividualProjectpast from "./pages/sprint_5/serviceprovider-individualProjectspast";
 import ServiceproviderindividualProjectpastDetails from "./pages/sprint_5/serviceproviderIndividual-ProjectPast-Details";
 
+// sprint 6
+import ServiceproviderCompanyaccountTeamMember from "./pages/sprint_6/serviceprovider-companyaccount-TeamMember-";
+
 // sprint 7
 import ClientAccount from "./pages/sprint_7/client-account";
 import ServiceproviderindividualProfilesetting from "./pages/sprint_7/serviceproviderindividual-AccountProfilesetting";
@@ -271,6 +274,9 @@ function App() {
         <Route path='/ServiceproviderindividualProjectopenDetailsHourlysheet' exact element={<ServiceproviderindividualProjectopenDetailsHourlysheet/>} />
         <Route path='/ServiceproviderindividualProjectpast' exact element={<ServiceproviderindividualProjectpast/>} />
         <Route path='/ServiceproviderindividualProjectpastDetails' exact element={<ServiceproviderindividualProjectpastDetails/>} />
+
+        {/* sprint 6 */}
+        <Route path='/ServiceproviderCompanyaccountTeamMember' exact element={<ServiceproviderCompanyaccountTeamMember/>} />
 
         {/* sprint 7 */}
         <Route path='/ClientAccount' exact element={<ClientAccount/>} />
