@@ -312,6 +312,7 @@ background-size: 40%; min-height: 100vh;}
 .profile-content ul li{color: #242424; font-size: 13px; font-weight: 500; margin-bottom: 15px;}
 
 .upload-btn-wrapper {position: relative; overflow: hidden; display: block; text-align: right; top: -53px; right: 18px;}
+.uploadwrapperNEw { position: absolute; top: 17px; }
 .uploadBtn {background: #242424;  box-shadow: 0px 12px 34px #24242433; border-radius: 8px; color: #FFFFFF;
     padding: 8px 30px; font-size: 13px; font-weight: 600; border: 2px solid #242424;}
 .upload-btn-wrapper input[type=file] {font-size: 100px; position: absolute; left: -124px; top: 0; opacity: 0; cursor: pointer; height: 500px;
@@ -366,7 +367,9 @@ font-size: 20px; width: 900px;}
 .radio-input{ border: 2px solid #FFFFFF; padding-left: 16px; background: #FFFFFF; box-shadow: 0px 12px 34px #20345914; border-radius: 10px; padding-top: 18px; padding-bottom: 17px}
 .radio-input:hover{background: #51459E1A; box-shadow: 0px 12px 34px #20345914; border: 2px solid #51459E; border-radius: 10px;}
 .radio-label{color: #242424; font-weight: 500; font-size: 14px !important; padding-left: 40px !important; padding-top: 2px !important;}
-
+.addressradio .radio-label strong { font-size: 15px !important;}
+.addressradio .radio-label p { line-height: 20px; font-size: 13px;}
+.addressradio { padding: 10px;}
 /* service-provider full */
 .service-providerFullbg{background: url(../images/serviceprovider-fullbg.svg) center right; background-repeat: no-repeat;
     background-size: 40%;}
@@ -388,7 +391,7 @@ font-size: 20px; width: 900px;}
 
 /* Serviceprovider profile-builder1*/
 .nav-tabs{border-bottom: none;}
-.nav-tabs .nav-link {border: none; position: relative;}
+.nav-tabs .nav-link {border: none; position: relative; background: none;}
 .nav-tabs .nav-link {color: #51459e33; font-weight: 500; font-size: 16px; margin-right: 20px; padding: 5px 29px 5px 0px;}
 .nav-tabs .nav-link.active {color: #51459E;  position: relative;}
 .nav-tabs .nav-link.active:after{
@@ -1027,6 +1030,27 @@ input:not(:checked) + .slider span.swinactive { display: inline-block; font-size
 .gorden-ratetext{color: #51459E; font-weight: 700;}
 .padding-redtext{color: #DD3636;}
 
+.mark-paymentbtn { padding: 0; font-size: 13px; font-weight: 600; margin-bottom: 0px; color: #1B9BDE; }
+.raiseh3color { background: #51459E1A !important; line-height: 20px; border: 1px solid #51459e !important; display: flex; align-items: center; justify-content: center;}
+
+.extracostadding .form-control  { padding:10px 10px; height: 40px; font-size: 12px; margin: 0 !important;  } 
+.extracostadding tr td:first-child { width: 70%; } 
+.extracostadding th { font-size: 14px; padding: 5px 10px;}
+.extracostadding td {  padding: 10px 10px; font-size: 13px;}
+.extracostadding tfoot { background: #eee; }
+.jobtimig { font-style: normal !important; font-size: 12px;}
+
+.raiseticketswitch .slider { background-color: #d9d9d9; border: #d2d2d2 thin solid;}
+.raiseticketswitch .slider:before { background-color: #b9b9b9; }
+.raiseticketswitch input:not(:checked) + .slider span.swinactive { color: #616161; }
+.raiseticketswitch .switch { width: 102px; }
+.raiseticketswitch input:checked + .slider:before { left: 50px;}
+.raiseinvoiceticket { background: #51459E1A !important; }
+.raiseinvoiceticketblue { background: #DD36361A !important; }
+.raiseinvoiceticketgreen { background: #eef5ec !important; }
+
+.raiseticketswitch input:checked + .slider { background-color: #c8ddc2; }
+
 // 
 .client-chatboxdetails{background: #FEF6DF 0% 0% no-repeat padding-box; border: 1px solid #FAD15C; border-radius: 10px;
      position: relative;}
@@ -1115,7 +1139,8 @@ background-position: right;  padding: 40px 20px;}
 .new-popupimg img{width: 100%; height: 100%; object-fit: contain;}
 
 //sprint4
-.nav-tabs .nav-link:last-child{margin-right: 0px;}
+.nav-tabs .nav-item.nav-link:last-child{margin-right: 0px;}
+.nav-tabs .nav-item:last-child .nav-link{margin-right: 0px;}
 .hirestep-rise{margin-bottom: 0px; color: #242424; font-weight: 500; font-size: 16px;}
 .milestonepupup-input{background: #FFFFFF; border: 1px solid #DDDDDD; border-radius: 10px; font-size: 13px;
      font-weight: 500; padding: 33px 18px 33px 18px;}

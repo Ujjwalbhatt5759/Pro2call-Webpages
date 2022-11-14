@@ -45,6 +45,7 @@ function ClientBookingscheduledDetails () {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+ 
 
     return (
         <>
@@ -607,7 +608,7 @@ function ClientBookingscheduledDetails () {
                                             <p>Listed on</p>
                                             <h6>12th Jun 2022</h6>
                                         </div>
-                                        <div class="col-md-7 col-6 text-right">
+                                        <div class="col-md-7 col-6 text-right"> 
                                             <button type="button" class="btn btn-danger remove-btn" onClick={handleShow}>RE-SECHEDULE</button>
                                         </div>
                                     </div>
@@ -647,6 +648,7 @@ function ClientBookingscheduledDetails () {
                                             <h4>$75</h4>
                                         </div>
                                     </div>
+                                    <h3 className="mb-0 raiseh3color">Is your Service Completed? <button className="btn mark-paymentbtn ml-1" >Raise Service Invoice</button></h3>
                                 </div>
                                 <div class="Conveniencebox service-head p-3 mt-3">
                                     <div class="row">
@@ -865,6 +867,8 @@ function ClientBookingscheduledDetails () {
                     {/* <Button variant="primary" onClick={handleClose}>Save Changes</Button> */}
                 </Modal.Footer>
             </Modal>
+
+ 
         </>
     );
 }

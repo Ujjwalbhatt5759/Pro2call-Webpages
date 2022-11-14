@@ -250,7 +250,79 @@ function ClientProjectInprogressdetails() {
 
                                             </div>
 
+                                            
+
                                             <div class="uploaddocument-milestones">
+
+                                            <label for="#" class="profile-label">Timesheet</label>
+
+                                                    <div class="included-service mt-1 mb-3">
+                                                        <div class="included-servicehead">
+                                                            <div class="row">
+                                                                <div class="col-md-2 col-2 pl-4 pl-sm-5">
+                                                                    <h1>Sr. no.</h1>
+                                                                </div>
+                                                                <div class="col-md-7 col-7">
+                                                                    <h1>Particulars</h1>
+                                                                </div>
+                                                                <div class="col-md-3 col-3 text-right pr-4 pr-sm-5">
+                                                                    <h1>Cost</h1>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mt-1 mt-sm-2">
+                                                            <div class="col-md-2 col-2 pl-4 pl-sm-5 ">
+                                                                <p>01</p>
+                                                            </div>
+                                                            <div class="col-md-7 col-7">
+                                                                <p>Drainage cleaning related activities</p>
+                                                            </div>
+                                                            <div class="col-md-3 col-3 text-right pr-4 pr-sm-5">
+                                                                <p>$109.00</p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row mt-1 mt-sm-3">
+                                                            <div class="col-md-2 pl-4 pl-sm-5 col-2">
+                                                                <p>02</p>
+                                                            </div>
+                                                            <div class="col-md-7 col-7">
+                                                                <p>Grouting repair work</p>
+                                                            </div>
+                                                            <div class="col-md-3 text-right pr-4 pr-sm-5 col-3">
+                                                                <p>$109.00</p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row mt-1 mt-sm-3">
+                                                            <div class="col-md-2 pl-4 pl-sm-5 col-2">
+                                                                <p>03</p>
+                                                            </div>
+                                                            <div class="col-md-7 col-7">
+                                                                <p>Light cement work</p>
+                                                            </div>
+                                                            <div class="col-md-3 col-3 text-right pr-4 pr-sm-5">
+                                                                <p>$109.00</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mt-1 mt-sm-3 pb-3 pb-sm-4">
+                                                            <div class="col-md-2 pl-4 pl-sm-5 col-2">
+                                                                <p>04</p>
+                                                            </div>
+                                                            <div class="col-md-7 col-7">
+                                                                <p>Plumbing related consultation</p>
+                                                            </div>
+                                                            <div class="col-md-3 text-right pr-4 pr-sm-5 col-3">
+                                                                <p>$109.00</p>
+                                                            </div>
+                                                        </div>
+
+
+                                                    </div>
+
+
+
+
                                                 <label for="#" class="profile-label">Uploaded documents</label>
                                                 <div class="row">
                                                     <div class="col-md-3 col-4">
