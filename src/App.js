@@ -26,6 +26,7 @@ import ServiceproviderTeamMemberform3 from "./pages/sprint_1/serviceprovider-tea
 import ServiceproviderTeamMemberform4 from "./pages/sprint_1/serviceprovider-teamMemberform4";
 import ServiceproviderSignupformFull from "./pages/sprint_1/serviceprovider-signupformFull";
 import ServiceproviderCompanyfull from "./pages/sprint_1/serviceprovider-companyFull";
+import Terms from "./pages/sprint_1/terms";
 
 // Sprint2
 import Addnew from "./pages/sprint_2/serviceprovider-addnew";
@@ -67,6 +68,7 @@ import ClientBookingPaymentpendingDetails from "./pages/sprint_3/clinet-BookingP
 import ClientBookingPaymentpendingDetailscheckout from "./pages/sprint_3/client-BookingPaymentpendingDetailscheckout";
 import ClientBookingPastdetails from "./pages/sprint_3/clinet-BookingPastdetails";
 import ClinetBookingpast from "./pages/sprint_3/client-Bookingpast";
+
 
 // sprint-4
 import ServiceproviderHirestep1 from "./pages/sprint_4/serviceprovider-Hirestep1";
@@ -185,6 +187,7 @@ function App() {
         <Route path='/ServiceproviderTeamMemberform4' exact element={<ServiceproviderTeamMemberform4/>} />
         <Route path='/ServiceproviderSignupformFull' exact element={<ServiceproviderSignupformFull/>} />
         <Route path='/ServiceproviderCompanyfull' exact element={<ServiceproviderCompanyfull/>} />
+        <Route path='/terms' exact element={<Terms/>} />
 
         {/* Sprint2 */}
         <Route path='/Addnew' exact element={<Addnew/>} />

@@ -60,7 +60,7 @@ function Home() {
                                 <ul class="tophead-right">
                                     <li class="d-none d-sm-block"><a href="#">Register as a service provider</a></li>
                                     <li><a href="#"><button type="button" class="btn btn-login">Login / Signup</button></a></li>
-                                    <li class="d-none d-sm-inline-block"><a href="#"><button type="button" class="btn btn-outline-primary post-btn">Post a Project</button></a></li>
+                                    <li class="d-none d-sm-inline-block "><a href="#"><button type="button" class="btn btn-outline-primary post-btn">Post a Project</button></a></li>
                                 </ul>
                             </div>
 
