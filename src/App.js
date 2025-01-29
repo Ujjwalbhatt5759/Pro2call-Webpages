@@ -28,6 +28,9 @@ import ServiceproviderSignupformFull from "./pages/sprint_1/serviceprovider-sign
 import ServiceproviderCompanyfull from "./pages/sprint_1/serviceprovider-companyFull";
 import Terms from "./pages/sprint_1/terms";
 
+
+import ClientBookingscheduledDetailsnew from "./pages/sprint_1/client-BookingscheduledDetailsnew";
+
 // Sprint2
 import Addnew from "./pages/sprint_2/serviceprovider-addnew";
 import Editservice from "./pages/sprint_2/serviceprovider-editservice";
@@ -163,6 +166,7 @@ function App() {
         <Route path='/' exact element={<Home/>} />  
         <Route path='/login' exact element={<Login/>} /> 
         <Route path='/password' exact element={<Password/>} /> 
+        <Route path='/ClientBookingscheduledDetailsnew' exact element={<ClientBookingscheduledDetailsnew/>} /> 
         <Route path='/Selector' exact element={<Selector/>} /> 
         <Route path='/Clientsignupform' exact element={<Clientsignupform/>} />
         <Route path='/Clientsignupprofile' exact element={<Clientsignupprofile/>} />

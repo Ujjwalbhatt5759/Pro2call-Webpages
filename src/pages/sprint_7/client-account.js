@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
-import { Modal, Button } from 'react-bootstrap';
+import { Modal } from 'react-bootstrap';
 import { Navbar, Nav } from 'react-bootstrap';
 
 function ClientAccount () {
@@ -17,7 +17,9 @@ function ClientAccount () {
                         <div class="row align-items-center">
                             <div class="col-md-6 col-5 moblogo">
                                 <a href="#"><img src="images/Logo.svg" alt="" /></a>
-                                <button type="button" class="btn btn-login ml-4 d-none d-sm-inline-block">REGISTER AS A SERVICE PROVIDER</button>
+                                <Link to="/">
+                                    <button type="button" class="btn btn-login ml-4 d-none d-sm-inline-block">REGISTER AS A SERVICE PROVIDER</button>
+                                </Link>
                             </div>
                             <div class="col-md-6 col-7">
                                 <ul class="tophead-right">
@@ -46,14 +48,14 @@ function ClientAccount () {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Link href="#"><img src="images/status.svg" alt="" />BROWSE</Nav.Link>
-                            <Nav.Link href="#"><img src="images/note.svg" alt="" />PROJECTS</Nav.Link>
-                            <Nav.Link href="#"><img src="images/bold-cal.svg" alt="" />BOOKINGS</Nav.Link>
-                            <Nav.Link href="#"><img src="images/dollar.svg" alt="" />EXPENSE</Nav.Link>
-                            <Nav.Link href="#"><img src="images/mgs.svg" alt="" />SUPPORT</Nav.Link>
-                            <Nav.Link href="#" className="active"><img src="images/bold-setting.svg" alt="" />ACCOUNT</Nav.Link>
-                            <Nav.Link href="#"><img src="images/archive.svg" alt="" />SAVED</Nav.Link>
-                            <Nav.Link href="#"><img src="images/trend.svg" alt="" />REPORTS</Nav.Link>
+                            <Nav.Link as={Link} to="/Clientbrowsse" ><img src="images/status.svg" alt="" />BROWSE</Nav.Link>
+                            <Nav.Link as={Link} to="/ClientprojectPosted"><img src="images/note.svg" alt="" />PROJECTS</Nav.Link>
+                            <Nav.Link as={Link} to="/ClientBookingscheduled"><img src="images/bold-cal.svg" alt="" />BOOKINGS</Nav.Link>
+                            <Nav.Link as={Link} to="/ClientexpensesProjects"><img src="images/dollar.svg" alt="" />EXPENSE</Nav.Link>
+                            <Nav.Link as={Link} to="/ClientsupportOpen"><img src="images/mgs.svg" alt="" />SUPPORT</Nav.Link>
+                            <Nav.Link as={Link} to="/ClientAccount" className="active"><img src="images/bold-setting.svg" alt="" />ACCOUNT</Nav.Link>
+                            <Nav.Link as={Link} to="/ClientSave"><img src="images/archive.svg" alt="" />SAVED</Nav.Link>
+                            <Nav.Link as={Link} to="/ClientreportsService"><img src="images/trend.svg" alt="" />REPORTS</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </div>

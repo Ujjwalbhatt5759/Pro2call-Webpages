@@ -53,9 +53,12 @@ function ClientprojectPosted () {
 
             <Navbar expand="lg" class="listed-bar">
                 <div class="container">
+                
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="mr-auto">
+
+                        {/* <Nav className="mr-auto">
                             <Nav.Link href="#"><img src="images/status.svg" alt="" />BROWSE</Nav.Link>
                             <Nav.Link href="#" className="active"><img src="images/bold-noteproject.svg" alt="" />PROJECTS</Nav.Link>
                             <Nav.Link href="#"><img src="images/bold-cal.svg" alt="" />BOOKINGS</Nav.Link>
@@ -64,7 +67,19 @@ function ClientprojectPosted () {
                             <Nav.Link href="#"><img src="images/setting.svg" alt="" />ACCOUNT</Nav.Link>
                             <Nav.Link href="#"><img src="images/archive.svg" alt="" />SAVED</Nav.Link>
                             <Nav.Link href="#"><img src="images/trend.svg" alt="" />REPORTS</Nav.Link>
+                        </Nav> */}
+
+                        <Nav className="mr-auto">
+                            <Nav.Link as={Link} to="/Clientbrowsse" ><img src="images/status.svg" alt="" />BROWSE</Nav.Link>
+                            <Nav.Link as={Link} to="/ClientprojectPosted" className="active"><img src="images/bold-noteproject.svg" alt="" />PROJECTS</Nav.Link>
+                            <Nav.Link as={Link} to="/ClientBookingscheduled"><img src="images/bold-cal.svg" alt="" />BOOKINGS</Nav.Link>
+                            <Nav.Link as={Link} to="/ClientexpensesProjects"><img src="images/dollar.svg" alt="" />EXPENSE</Nav.Link>
+                            <Nav.Link as={Link} to="/ClientsupportOpen"><img src="images/mgs.svg" alt="" />SUPPORT</Nav.Link>
+                            <Nav.Link as={Link} to="/ClientAccount"><img src="images/setting.svg" alt="" />ACCOUNT</Nav.Link>
+                            <Nav.Link as={Link} to="/ClientSave"><img src="images/archive.svg" alt="" />SAVED</Nav.Link>
+                            <Nav.Link as={Link} to="/ClientreportsService"><img src="images/trend.svg" alt="" />REPORTS</Nav.Link>
                         </Nav>
+
                     </Navbar.Collapse>
                 </div>
             </Navbar>
