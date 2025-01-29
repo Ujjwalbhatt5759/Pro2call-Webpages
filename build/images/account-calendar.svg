@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90">
+  <g id="vuesax_linear_calendar-2" data-name="vuesax/linear/calendar-2" transform="translate(-172 -252)">
+    <g id="calendar-2" transform="translate(172 252)">
+      <path id="Vector" d="M.688,12.875a.938.938,0,0,1-.937-.937V.688a.938.938,0,0,1,1.875,0v11.25A.938.938,0,0,1,.688,12.875Z" transform="translate(29.313 6.813)" fill="#292d32"/>
+      <path id="Vector-2" data-name="Vector" d="M.688,12.875a.938.938,0,0,1-.937-.937V.688a.938.938,0,0,1,1.875,0v11.25A.938.938,0,0,1,.688,12.875Z" transform="translate(59.313 6.813)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M64.438,1.625H.688a.938.938,0,0,1,0-1.875h63.75a.938.938,0,0,1,0,1.875Z" transform="translate(12.438 33.4)" fill="#292d32"/>
+      <path id="Vector-4" data-name="Vector" d="M19.438-.25h30c12.7,0,19.688,6.992,19.688,19.688V51.313C69.125,64.008,62.133,71,49.438,71h-30C6.742,71-.25,64.008-.25,51.313V19.438C-.25,6.742,6.742-.25,19.438-.25Zm30,69.375c14.722,0,17.813-9.687,17.813-17.812V19.438c0-8.126-3.09-17.812-17.812-17.812h-30c-14.722,0-17.812,9.687-17.812,17.813V51.313c0,8.126,3.09,17.813,17.813,17.813Z" transform="translate(10.563 12.438)" fill="#292d32"/>
+      <path id="Vector-5" data-name="Vector" d="M0,0H90V90H0Z" fill="none" opacity="0"/>
+      <path id="Vector-6" data-name="Vector" d="M1.9,3.75H1.87A1.875,1.875,0,1,1,1.87,0H1.9a1.875,1.875,0,0,1,0,3.75Z" transform="translate(43.114 49.5)" fill="#292d32"/>
+      <path id="Vector-7" data-name="Vector" d="M1.9,3.75H1.87A1.875,1.875,0,1,1,1.87,0H1.9a1.875,1.875,0,0,1,0,3.75Z" transform="translate(29.234 49.5)" fill="#292d32"/>
+      <path id="Vector-8" data-name="Vector" d="M1.9,3.75H1.87A1.875,1.875,0,1,1,1.87,0H1.9a1.875,1.875,0,0,1,0,3.75Z" transform="translate(29.234 60.75)" fill="#292d32"/>
+    </g>
+  </g>
+</svg>
